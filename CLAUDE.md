@@ -32,7 +32,9 @@ inclusion criteria. Read them before filing. In brief:
 
 Every page lives in exactly one category. Navigation is derived from the
 directory tree by the awesome-pages plugin — **never add a `nav:` key to
-`mkdocs.yml`**.
+`mkdocs.yml`**. The docs-sync agent must never create, modify, or delete
+`.pages` files, anything under `docs/stylesheets/`, or `docs/index.md` —
+those are static theme/navigation config outside its writable surface.
 
 ## ADR Format
 

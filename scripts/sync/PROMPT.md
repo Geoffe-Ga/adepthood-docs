@@ -95,6 +95,10 @@ a repo whose PRs you did not process.
 - Edit ONLY files under `docs/` plus `state/sync-watermarks.json`.
 - Never touch `mkdocs.yml`, `README.md`, `.github/`, `scripts/`, or
   anything else outside `docs/` + `state/`.
+- Within `docs/`, never create, modify, or delete `.pages` files,
+  anything under `docs/stylesheets/`, or the site homepage
+  `docs/index.md` — those are static theme/navigation config, not corpus
+  content.
 - Never add a `nav:` key to `mkdocs.yml` — navigation derives from the
   directory tree (awesome-pages).
 - Every page lives in exactly one category.

@@ -4,6 +4,18 @@ Visual and interaction design across the ecosystem: design systems, tokens,
 typography, component visual language, and product design north stars
 (for example Adepthood's "Candle & Ink" system).
 
+## Site theme provenance
+
+This docs site itself wears [Candle & Ink](candle-and-ink.md): the values
+in `docs/stylesheets/extra.css` are copied from the semantic token layer in
+`frontend/src/design/tokens.ts` in the adepthood repo (`surface` / `ink` /
+`accent`, plus the warm-dark `surfaceDark` / `inkDark` / `accentDark`
+counterparts), with `frontend/src/design/DESIGN.md` as the narrative
+reference. When a merged adepthood PR changes those tokens, the docs-sync
+pipeline updates the prose here as usual, and a human or agent then updates
+`extra.css` from the cited source — the stylesheet is static config the
+sync agent never edits.
+
 ## Inclusion criteria
 
 File a page (or update an existing one) here when a merged PR:
