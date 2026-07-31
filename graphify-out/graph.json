@@ -680,7 +680,7 @@
       "label": "ADR Format",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L37",
+      "source_location": "L39",
       "_origin": "ast"
     },
     {
@@ -688,7 +688,7 @@
       "label": "Markdownlint Conventions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L44",
+      "source_location": "L46",
       "_origin": "ast"
     },
     {
@@ -696,7 +696,7 @@
       "label": "Commit Style",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L62",
+      "source_location": "L64",
       "_origin": "ast"
     },
     {
@@ -704,7 +704,7 @@
       "label": "Knowledge Graph (graphify)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L72",
+      "source_location": "L74",
       "_origin": "ast"
     },
     {
@@ -2372,11 +2372,19 @@
       "_origin": "ast"
     },
     {
+      "id": "docs_design_index_site_theme_provenance",
+      "label": "Site theme provenance",
+      "file_type": "document",
+      "source_file": "docs/design/index.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
       "id": "docs_design_index_inclusion_criteria",
       "label": "Inclusion criteria",
       "file_type": "document",
       "source_file": "docs/design/index.md",
-      "source_location": "L7",
+      "source_location": "L19",
       "_origin": "ast"
     },
     {
@@ -2384,7 +2392,7 @@
       "label": "Conventions",
       "file_type": "document",
       "source_file": "docs/design/index.md",
-      "source_location": "L25",
+      "source_location": "L37",
       "_origin": "ast"
     },
     {
@@ -2852,19 +2860,11 @@
       "_origin": "ast"
     },
     {
-      "id": "docs_index_taxonomy",
-      "label": "Taxonomy",
-      "file_type": "document",
-      "source_file": "docs/index.md",
-      "source_location": "L9",
-      "_origin": "ast"
-    },
-    {
       "id": "docs_index_source_repositories",
       "label": "Source repositories",
       "file_type": "document",
       "source_file": "docs/index.md",
-      "source_location": "L30",
+      "source_location": "L66",
       "_origin": "ast"
     },
     {
@@ -3224,7 +3224,7 @@
       "label": "Quality gates",
       "file_type": "document",
       "source_file": "scripts/sync/PROMPT.md",
-      "source_location": "L102",
+      "source_location": "L106",
       "_origin": "ast"
     }
   ],
@@ -5177,7 +5177,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L37",
+      "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5187,7 +5187,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L44",
+      "source_location": "L46",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5197,7 +5197,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L62",
+      "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5207,7 +5207,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L72",
+      "source_location": "L74",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -7483,7 +7483,7 @@
     },
     {
       "source": "docs_design_index_design",
-      "target": "docs_design_index_inclusion_criteria",
+      "target": "docs_design_index_site_theme_provenance",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/design/index.md",
@@ -7493,11 +7493,31 @@
     },
     {
       "source": "docs_design_index",
+      "target": "docs_design_candle_and_ink",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/design/index.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_design_index_design",
+      "target": "docs_design_index_inclusion_criteria",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/design/index.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_design_index",
       "target": "docs_products_index",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/design/index.md",
-      "source_location": "L23",
+      "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -7507,7 +7527,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/design/index.md",
-      "source_location": "L25",
+      "source_location": "L37",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8062,18 +8082,8 @@
       "_origin": "ast"
     },
     {
-      "source": "docs_index_adepthood_docs",
-      "target": "docs_index_taxonomy",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/index.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
       "source": "docs_index",
-      "target": "docs_architecture_index",
+      "target": "docs_products_index",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/index.md",
@@ -8083,21 +8093,11 @@
     },
     {
       "source": "docs_index",
-      "target": "docs_decisions_index",
+      "target": "docs_architecture_index",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/index.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "docs_index",
-      "target": "docs_design_index",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/index.md",
-      "source_location": "L19",
+      "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8107,7 +8107,27 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/index.md",
-      "source_location": "L21",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_index",
+      "target": "docs_decisions_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/index.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_index",
+      "target": "docs_design_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/index.md",
+      "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8117,17 +8137,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/index.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "docs_index",
-      "target": "docs_products_index",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/index.md",
-      "source_location": "L25",
+      "source_location": "L50",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8137,7 +8147,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/index.md",
-      "source_location": "L27",
+      "source_location": "L57",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8147,7 +8157,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/index.md",
-      "source_location": "L30",
+      "source_location": "L66",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -8607,7 +8617,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/sync/PROMPT.md",
-      "source_location": "L102",
+      "source_location": "L106",
       "weight": 1.0,
       "_origin": "ast"
     }
