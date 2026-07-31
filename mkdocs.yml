@@ -1,0 +1,29 @@
+site_name: Adepthood Docs
+site_url: https://geoffe-ga.github.io/adepthood-docs/
+site_description: >-
+  Living documentation corpus for the five-repo Adepthood ecosystem,
+  maintained by an autonomous sync pipeline.
+repo_url: https://github.com/Geoffe-Ga/adepthood-docs
+repo_name: Geoffe-Ga/adepthood-docs
+
+docs_dir: docs
+
+# Navigation is derived from the directory tree by the awesome-pages plugin.
+# Do NOT add a `nav:` key — new pages must appear without config edits.
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - toc:
+      permalink: true

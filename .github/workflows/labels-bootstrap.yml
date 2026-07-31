@@ -1,0 +1,33 @@
+name: "Labels: bootstrap pipeline labels"
+
+# One-shot (manually dispatched) bootstrap that creates/updates the labels
+# the autonomous docs-sync pipeline relies on. Idempotent — `gh label create
+# --force` updates color/description when the label already exists, so
+# re-dispatching is safe drift correction.
+#
+# Run via Actions -> this workflow -> Run workflow.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Create/update pipeline labels
+        run: |
+          set -euo pipefail
+          gh label create "epic"        --force --color "3E4B9E" --description "Umbrella issue tracking a multi-issue initiative"
+          gh label create "agent-ready" --force --color "0E8A16" --description "Fully specified; an agent can implement without clarification"
+          gh label create "P0"          --force --color "B60205" --description "Priority 0: do first"
+          gh label create "P1"          --force --color "D93F0B" --description "Priority 1: do soon"
+          gh label create "P2"          --force --color "FBCA04" --description "Priority 2: do eventually"
+          gh label create "P3"          --force --color "C2E0C6" --description "Priority 3: nice to have"
+          gh label create "docs-sync"   --force --color "1D76DB" --description "Created or touched by the automated docs sync pipeline"
+          gh label create "graph"       --force --color "5319E7" --description "Knowledge-graph (graphify) related work"

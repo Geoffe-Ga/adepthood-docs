@@ -1,0 +1,9 @@
+# MkDocs build output
+site/
+
+# Environments
+.venv/
+node_modules/
+
+# OS noise
+.DS_Store

@@ -1,0 +1,16 @@
+{
+  // Markdownlint configuration for the Adepthood docs corpus.
+  // Prose-pragmatic: structural rules stay on; pure style rules that fight
+  // natural writing are relaxed here (configuration, not suppression).
+  "config": {
+    "default": true,
+    // Line length: docs prose and long URLs make a hard wrap limit noisy.
+    "MD013": false,
+    // Inline HTML: MkDocs Material content occasionally needs it.
+    "MD033": false,
+    // Duplicate headings allowed when not siblings (e.g. dated changelog
+    // files each containing an "## HH:MM UTC" heading).
+    "MD024": { "siblings_only": true }
+  },
+  "ignores": ["node_modules/**", "site/**", ".venv/**"]
+}
