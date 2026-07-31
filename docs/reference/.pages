@@ -1,0 +1,12 @@
+# Deliberate subsection order for the Reference section (awesome-pages).
+# Static config — the docs-sync agent must never create, modify, or delete
+# this file. Ordering rationale: the flagship monorepo first (backend, then
+# frontend), then satellites by descending depth of coverage.
+nav:
+  - index.md
+  - backend
+  - frontend
+  - creek-vault
+  - wavelengthwatch
+  - aptitude-course
+  - wavelength-demo

@@ -4,6 +4,15 @@ System-level structure of each Adepthood repo and the connections between
 them: components, service boundaries, data flow, storage schemas, and
 deployment topology.
 
+## Walkthroughs
+
+Alongside the per-repo structure pages, the
+[end-to-end walkthroughs](walkthroughs/index.md) trace five real actions
+through the stack hop by hop — habit completion, sign-in,
+journal-to-resonance, the graph pipeline, and the docs-sync run — with a
+`file:line` citation at every hop. For the enumerated surfaces those
+hops pass through, see [Reference](../reference/index.md).
+
 ## Inclusion criteria
 
 File a page (or update an existing one) here when a merged PR:

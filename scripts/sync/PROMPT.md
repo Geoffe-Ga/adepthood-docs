@@ -29,7 +29,13 @@ PR decide which categories it touches:
 
 - `docs/architecture/` — update the affected repo/concern page **in
   place** when a PR changes components, boundaries, data flow, schemas, or
-  deployment topology.
+  deployment topology. The `docs/architecture/walkthroughs/` subsection
+  holds end-to-end code traces — maintain them per "Reference
+  depth-maintenance" below.
+- `docs/reference/` — deep, code-grounded reference pages (enumerated
+  endpoints, models, screens, stores, with `file:line` citations). Update
+  **in place** when a PR touches documented code — see "Reference
+  depth-maintenance" below for the required depth.
 - `docs/how-to/` — update task guides in place when a PR adds or changes a
   procedure; fix steps the PR made stale in the same run.
 - `docs/design/` — update in place when a PR changes tokens, visual
@@ -48,6 +54,55 @@ PR decide which categories it touches:
 Many PRs (small fixes, dependency bumps, internal refactors) rightly touch
 no architecture/design/how-to/products page at all. That is fine — but the
 changelog is never optional.
+
+## Reference depth-maintenance
+
+When a folded PR touches source code that is documented under
+`docs/reference/**` or `docs/architecture/walkthroughs/**`, updating those
+pages is **mandatory, not optional**, and must be done at the depth
+contract of epic #17 (summarized here in full so you need no external
+context):
+
+1. **Every factual claim cites its source** as a repo-relative
+   `file:line` (or `file:start-end`) reference. Load-bearing logic gets a
+   short verbatim code excerpt, not a paraphrase.
+2. **Enumerable surfaces get complete tables** — every endpoint (method,
+   path, auth, request/response schema, status codes/errors), every model
+   (field name, type, constraints, relations, purpose), every
+   screen/store/hook in a module's public shape. "Complete" means
+   enumerated from code, not sampled.
+3. **Explain why, not just what** — link the relevant ADR in
+   `docs/decisions/` where one exists; where behavior encodes an
+   undocumented decision, say so explicitly.
+4. **No invented behavior.** If the diff leaves code ambiguous or a
+   branch unreachable/unclear, the page says that plainly instead of
+   guessing.
+5. **One module/concern per page**, and each page ends with a provenance
+   footer: `*Grounded in <repo>@<sha>, <YYYY-MM-DD>.*`
+6. **All pages pass the existing gates** (markdownlint, offline link
+   check, `mkdocs build --strict`) and land under the auto-nav (no `nav:`
+   key; `.pages` files are off-limits to you).
+
+Concretely, for each affected page:
+
+- **Re-verify every table row the diff touches.** If the PR adds,
+  removes, or changes an endpoint, model field, screen, store, or hook,
+  the corresponding table must be corrected so it stays complete — and
+  rows the diff did not touch must not be invented or dropped.
+- **Refresh citations.** `file:line` references and verbatim excerpts
+  that the diff moved or rewrote must be updated to match the
+  post-merge source. Never leave a citation pointing at pre-merge line
+  numbers you know to be stale.
+- **Refresh the provenance footer** to the merged PR's head repo@sha and
+  the UTC date of this sync run.
+- **Walkthroughs are hop lists:** if the diff changes a hop (a call
+  site, an error path, a payload), rewrite that hop's sentence, citation,
+  and excerpt; renumber only if hops were inserted or removed.
+
+If the patch in `sync-input.json` was truncated and you cannot verify a
+reference page's tables against it, do NOT guess: leave the page
+unchanged and note in the changelog entry that reference verification was
+skipped for that PR (with the truncation reason).
 
 ## Changelog — every PR, no exceptions
 
