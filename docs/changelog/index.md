@@ -23,3 +23,15 @@ trail, not prose.
 - One file per day with activity, named `YYYY-MM-DD.md`.
 - Entries within a file are ordered newest-run-first, each under an
   `## HH:MM UTC` heading.
+
+## Per-repo rolling digests
+
+Alongside the dated run digests, one file per source repo carries that
+repo's rolling change digest, seeded at the 2026-07-31 baseline (issue #3)
+and appended to by the sync pipeline (newest entries first):
+
+- [adepthood](adepthood.md)
+- [Creek-Vault](creek-vault.md)
+- [WavelengthWatch](wavelengthwatch.md)
+- [aptitude-course](aptitude-course.md)
+- [wavelength-demo](wavelength-demo.md)
