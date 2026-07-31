@@ -16,7 +16,12 @@ Each category's `docs/<category>/index.md` carries the authoritative
 inclusion criteria. Read them before filing. In brief:
 
 - `docs/architecture/` — components, boundaries, data flow, deployment
-  topology. File when a merged PR changes system structure.
+  topology. File when a merged PR changes system structure. Its
+  `walkthroughs/` subsection holds end-to-end code traces maintained at
+  reference depth (see below).
+- `docs/reference/` — deep, code-grounded reference (enumerated
+  endpoints, models, screens, stores, with `file:line` citations).
+  Update in place when a merged PR touches documented code.
 - `docs/decisions/` — ADRs. File when a merged PR commits to a choice with
   lasting consequences.
 - `docs/design/` — tokens, visual language, interaction patterns. File
@@ -29,6 +34,16 @@ inclusion criteria. Read them before filing. In brief:
   user-facing feature surface or product scope.
 - `docs/changelog/` — one dated digest entry per sync run that processed
   merged PRs.
+
+**Reference depth-maintenance:** when a merged PR touches code documented
+under `docs/reference/**` or `docs/architecture/walkthroughs/**`, those
+pages must be updated to match at the depth contract of epic #17 (stated
+in full in `docs/contributing/depth-contract.md` and inline in
+`scripts/sync/PROMPT.md`): every claim cited as `file:line` with verbatim
+excerpts for load-bearing logic; enumerable surfaces kept as complete
+tables re-verified against the diff; why explained via ADR links; no
+invented behavior; one module per page with a refreshed provenance footer
+(`repo@sha`, date); all gates passing.
 
 Every page lives in exactly one category. Navigation is derived from the
 directory tree by the awesome-pages plugin — **never add a `nav:` key to
