@@ -38,10 +38,10 @@ that span more than one repository name the repo alongside the path.
 Hops are numbered in causal order. A hop is one sentence of what happens,
 the citation that proves it, and — where the logic is load-bearing — a
 minimal verbatim excerpt. Diagrams are deliberately plain-markdown hop
-lists rather than rendered sequence diagrams: this site's `mkdocs.yml`
-enables `pymdownx.superfences` without a mermaid custom fence
-(`mkdocs.yml:53-57`), so a mermaid block would render as a dead code
-listing.
+lists rather than rendered sequence diagrams: even though this site's
+`mkdocs.yml` now registers a mermaid custom fence under
+`pymdownx.superfences` (`mkdocs.yml:57-61`), a hop list keeps every hop
+adjacent to its citation, which a rendered diagram cannot.
 
 *Grounded in Geoffe-Ga/adepthood@55eef11 and
 Geoffe-Ga/adepthood-docs@8b73a15, 2026-07-31.*

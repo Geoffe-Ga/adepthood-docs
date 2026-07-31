@@ -33,6 +33,14 @@ rules.
     Task-oriented guides: numbered steps for developers and agents,
     verified against the current state of the repos.
 
+- **[Reference](reference/index.md)**
+
+    ---
+
+    Deep, code-grounded reference for every repo — enumerated API,
+    model, and screen surfaces with `file:line` citations, plus
+    end-to-end walkthroughs.
+
 - **[Decisions](decisions/index.md)**
 
     ---
