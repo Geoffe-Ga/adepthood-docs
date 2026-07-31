@@ -1,0 +1,92 @@
+name: Graph Build
+
+# Keeps the committed knowledge graph (graphify-out/graph.json) fresh so the
+# adepthood hub can fetch it over raw.githubusercontent.com and federate it
+# into pan-graph.json nightly (satellite pattern — see scripts/graph/README.md).
+#
+# Triggers:
+#   push      — any change to the corpus or the graph toolchain on main
+#               (i.e. after every docs-sync auto-merge). The path filter
+#               deliberately EXCLUDES graphify-out/**: this workflow's own
+#               commit-back touches only that path, so it can never
+#               retrigger itself.
+#   schedule  — nightly full rebuild with the shrink guard bypassed
+#               (GRAPHIFY_FORCE=1) so deletions that slipped past a push
+#               build are reflected within 24h.
+#   dispatch  — manual rebuild, same forced mode as the nightly.
+#
+# $0 and keyless: pure AST/prose extraction, GITHUB_TOKEN only, no LLM calls.
+# A weekly LLM semantic layer is documented (not built) in
+# scripts/graph/README.md and tracked in a follow-up issue.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - "scripts/graph/**"
+  schedule:
+    - cron: "25 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: graph-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build and commit graph
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/graph/requirements.txt
+
+      - name: Install pinned graphify toolchain
+        run: pip install -r scripts/graph/requirements.txt
+
+      - name: Build knowledge graph
+        env:
+          # Nightly / manual runs force a full rebuild past graphify's shrink
+          # guard so intentional deletions are reflected; push builds keep the
+          # guard as protection against a truncated extract.
+          GRAPHIFY_FORCE: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && '1' || '' }}
+        run: ./scripts/graph/build.sh
+
+      - name: Commit refreshed graph
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # Stage first: the very first build creates graph.json as an
+          # untracked file, which a plain `git diff --quiet` would not see.
+          git add graphify-out/graph.json
+          if git diff --cached --quiet -- graphify-out/graph.json; then
+            echo "graph unchanged — nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # [skip ci] keeps the bot commit from triggering Pages redeploys;
+          # this workflow itself is already immune via its own path filter.
+          git commit -m "chore(graph): refresh knowledge graph [skip ci]"
+          # The token rides a per-command remote URL; checkout keeps
+          # persist-credentials: false, so no credential outlives this step.
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git pull --rebase "$remote" main
+          git push "$remote" HEAD:main

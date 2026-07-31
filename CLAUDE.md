@@ -69,7 +69,30 @@ feat(sync): advance watermark handling for renamed repos
 ci(docs): tighten lychee glob to docs tree
 ```
 
-## Knowledge Graph
+## Knowledge Graph (graphify)
 
-Filled in by issue #6 — graph-first steering lands with the graphify
-adoption.
+This corpus ships a queryable knowledge graph, built by `scripts/graph/`
+and **committed in-tree** at `graphify-out/graph.json` (satellite pattern:
+the corpus is small, so the graph rides `main` and adepthood's federation
+workflow fetches it over `raw.githubusercontent.com` and merges it into the
+ecosystem `pan-graph.json` nightly). The `graph-build` workflow keeps the
+committed graph at most 24h fresh.
+
+When `graphify-out/graph.json` exists, prefer it over blind grep/read
+sweeps:
+
+- For corpus questions, run `graphify query "<question>"` first; use
+  `graphify path "A" "B"` for relationships between pages or concepts,
+  `graphify explain "X"` for a plain-language summary of a node, and
+  `graphify affected "X"` for the impact of changing a page.
+- When citing a fact from the graph, quote each node's `source_location`.
+- After editing docs, refresh the graph with `./scripts/graph/build.sh`
+  (keyless AST/prose pass — no LLM calls, ~seconds). Commit the refreshed
+  `graphify-out/graph.json` alongside doc changes when convenient; the
+  `graph-build` workflow rebuilds and commits it on merge anyway.
+- If the graph is absent, build it with `./scripts/graph/build.sh` or
+  proceed without it.
+
+A weekly LLM semantic layer (`graphify extract --backend claude`) is
+documented but not yet enabled — see `scripts/graph/README.md` and the
+follow-up issue linked from issue #6.

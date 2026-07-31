@@ -1,0 +1,11 @@
+# Pinned graphify toolchain — MUST match adepthood's scripts/graph/
+# requirements.txt pin (federation compatibility: adepthood merges this
+# repo's graph into pan-graph.json nightly). Workflows parse this pin with
+# `sed -n 's/^graphifyy==//p'`, so keep it on its own line.
+#
+# The PyPI distribution is `graphifyy` (double-y); the upstream project and
+# CLI are `graphify` — see adepthood scripts/graph/README.md "Provenance".
+#
+# The weekly semantic pass (--backend claude) additionally needs the
+# `anthropic` package; it gets pinned here when that follow-up lands.
+graphifyy==0.9.26
