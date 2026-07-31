@@ -1,0 +1,5 @@
+title: aptitude-course
+nav:
+  - index.md
+  - manifest-pipeline.md
+  - consumption-contract.md
