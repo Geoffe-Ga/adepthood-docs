@@ -1,0 +1,226 @@
+/*
+ * Candle & Ink — Adepthood's warm-editorial design language, mapped onto
+ * MkDocs Material's CSS custom properties.
+ *
+ * Canonical token source: `frontend/src/design/tokens.ts` in
+ * Geoffe-Ga/adepthood (semantic `surface` / `ink` / `accent` layer plus the
+ * warm-dark `surfaceDark` / `inkDark` / `accentDark` counterparts). Where
+ * this file and that source disagree, tokens.ts wins — update here.
+ * Narrative reference: `frontend/src/design/DESIGN.md` (same repo) and this
+ * site's docs/design/candle-and-ink.md.
+ *
+ * Contrast contract (WCAG AA, >= 4.5:1 for text), carried from the source:
+ *   light  ink #2b2620 on canvas #faf6ef  = 13.9:1 (AAA)
+ *   light  accent #a5572f on canvas       =  4.9:1 (AA)
+ *   dark   ink #f3ece0 on canvas #1c1814  = 15.0:1 (AAA)
+ *   dark   accent #e0895a on canvas       =  6.6:1 (AA)
+ * Preserve it in any value you change.
+ */
+
+/* ------------------------------------------------------------------ */
+/* Candle & Ink tokens                                                */
+/* ------------------------------------------------------------------ */
+
+:root {
+  /* Surfaces (tokens.ts `surface`) */
+  --ci-canvas: #faf6ef;
+  --ci-raised: #ffffff;
+  --ci-sunken: #f3ecdf;
+  --ci-desk: #e7dcc8;
+  --ci-hairline: #e3dccd;
+
+  /* Ink (tokens.ts `ink`) */
+  --ci-ink: #2b2620;
+  --ci-ink-soft: #5a5046;
+  --ci-ink-muted: #6b6055;
+
+  /* Accent (tokens.ts `accent`) — original terracotta, no brand swatch */
+  --ci-accent: #a5572f;
+  --ci-accent-strong: #8f4a28;
+  --ci-on-accent: #ffffff;
+
+  /* Warm-dark counterparts (tokens.ts `surfaceDark` / `inkDark` /
+     `accentDark`) — candlelit umber, deliberately not Material's #121212 */
+  --ci-dark-canvas: #1c1814;
+  --ci-dark-raised: #272019;
+  --ci-dark-sunken: #15110d;
+  --ci-dark-desk: #120e0b;
+  --ci-dark-hairline: #3a3026;
+  --ci-dark-ink: #f3ece0;
+  --ci-dark-ink-soft: #cdbfae;
+  --ci-dark-ink-muted: #a89880;
+  --ci-dark-accent: #e0895a;
+  --ci-dark-accent-strong: #eaa078;
+
+  /* Type — platform-system stacks only (tokens.ts `fonts`); no Google
+     Fonts, no bundled faces. Serif for display/headings, sans for body. */
+  --ci-font-serif: georgia, "Times New Roman", times, serif;
+  --ci-font-sans: -apple-system, blinkmacsystemfont, "Segoe UI", roboto,
+    "Helvetica Neue", arial, sans-serif;
+}
+
+/* ------------------------------------------------------------------ */
+/* Light scheme — warm paper                                          */
+/* ------------------------------------------------------------------ */
+
+[data-md-color-scheme="default"] {
+  /* Ground and body ink */
+  --md-default-bg-color: var(--ci-canvas);
+  --md-default-fg-color: var(--ci-ink);
+  --md-default-fg-color--light: var(--ci-ink-soft);
+  --md-default-fg-color--lighter: var(--ci-ink-muted);
+  --md-default-fg-color--lightest: var(--ci-hairline);
+  --md-typeset-color: var(--ci-ink);
+
+  /* Header (primary) — terracotta band, white foreground (5.3:1, AA) */
+  --md-primary-fg-color: var(--ci-accent);
+  --md-primary-fg-color--light: var(--ci-accent);
+  --md-primary-fg-color--dark: var(--ci-accent-strong);
+  --md-primary-bg-color: var(--ci-on-accent);
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  /* Accent (hover / focus / active) */
+  --md-accent-fg-color: var(--ci-accent-strong);
+  --md-accent-fg-color--transparent: rgba(165, 87, 47, 0.1);
+  --md-accent-bg-color: var(--ci-on-accent);
+
+  /* Links */
+  --md-typeset-a-color: var(--ci-accent);
+
+  /* Code — recessed sunken well on the paper ground */
+  --md-code-bg-color: var(--ci-sunken);
+  --md-code-fg-color: var(--ci-ink);
+
+  /* Tables, rules, admonition frames — faint warm hairlines */
+  --md-typeset-table-color: rgba(43, 38, 32, 0.12);
+  --md-typeset-table-color--light: rgba(43, 38, 32, 0.035);
+  --md-typeset-kbd-color: var(--ci-sunken);
+  --md-typeset-kbd-accent-color: var(--ci-raised);
+  --md-typeset-kbd-border-color: var(--ci-desk);
+  --md-admonition-bg-color: var(--ci-raised);
+  --md-admonition-fg-color: var(--ci-ink);
+
+  /* Footer — ink ground with warm off-white foreground */
+  --md-footer-bg-color: var(--ci-ink);
+  --md-footer-bg-color--dark: #1f1b16;
+  --md-footer-fg-color: var(--ci-dark-ink);
+  --md-footer-fg-color--light: var(--ci-dark-ink-soft);
+  --md-footer-fg-color--lighter: var(--ci-dark-ink-muted);
+}
+
+/* ------------------------------------------------------------------ */
+/* Slate scheme — candlelit warm dark (derivation, not pure inversion) */
+/* ------------------------------------------------------------------ */
+
+[data-md-color-scheme="slate"] {
+  /* Ground and body ink — warm umber, warm off-white */
+  --md-default-bg-color: var(--ci-dark-canvas);
+  --md-default-fg-color: var(--ci-dark-ink);
+  --md-default-fg-color--light: var(--ci-dark-ink-soft);
+  --md-default-fg-color--lighter: var(--ci-dark-ink-muted);
+  --md-default-fg-color--lightest: var(--ci-dark-hairline);
+  --md-typeset-color: var(--ci-dark-ink);
+
+  /* Header — deeper terracotta so the band sits into the dark ground;
+     white foreground on #8f4a28 = 6.1:1 (AA) */
+  --md-primary-fg-color: var(--ci-accent-strong);
+  --md-primary-fg-color--light: var(--ci-accent);
+  --md-primary-fg-color--dark: var(--ci-accent-strong);
+  --md-primary-bg-color: var(--ci-on-accent);
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  /* Accent — brightened terracotta (a dark ground needs a lighter accent) */
+  --md-accent-fg-color: var(--ci-dark-accent-strong);
+  --md-accent-fg-color--transparent: rgba(224, 137, 90, 0.1);
+  --md-accent-bg-color: var(--ci-dark-canvas);
+
+  /* Links — 6.6:1 on the dark canvas (AA) */
+  --md-typeset-a-color: var(--ci-dark-accent);
+
+  /* Code — a step darker than the ground (recessed well) */
+  --md-code-bg-color: var(--ci-dark-sunken);
+  --md-code-fg-color: var(--ci-dark-ink);
+
+  /* Tables, rules, admonitions */
+  --md-typeset-table-color: rgba(243, 236, 224, 0.14);
+  --md-typeset-table-color--light: rgba(243, 236, 224, 0.045);
+  --md-typeset-kbd-color: var(--ci-dark-sunken);
+  --md-typeset-kbd-accent-color: var(--ci-dark-raised);
+  --md-typeset-kbd-border-color: var(--ci-dark-hairline);
+  --md-admonition-bg-color: var(--ci-dark-raised);
+  --md-admonition-fg-color: var(--ci-dark-ink);
+
+  /* Footer — the deepest ground */
+  --md-footer-bg-color: var(--ci-dark-desk);
+  --md-footer-bg-color--dark: var(--ci-dark-desk);
+  --md-footer-fg-color: var(--ci-dark-ink);
+  --md-footer-fg-color--light: var(--ci-dark-ink-soft);
+  --md-footer-fg-color--lighter: var(--ci-dark-ink-muted);
+}
+
+/* ------------------------------------------------------------------ */
+/* Typography — serif display/headings + system sans body              */
+/* ------------------------------------------------------------------ */
+
+body,
+.md-typeset {
+  font-family: var(--ci-font-sans);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: var(--ci-font-serif);
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset h1 {
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------------ */
+/* Editorial details                                                  */
+/* ------------------------------------------------------------------ */
+
+/* Faint warm rules instead of neutral grey */
+.md-typeset hr {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Grid cards read as lifted paper sheets on the canvas */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-color: var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  transition: border-color 125ms, box-shadow 125ms;
+}
+
+[data-md-color-scheme="default"] .md-typeset .grid.cards > ul > li,
+[data-md-color-scheme="default"] .md-typeset .grid > .card {
+  background-color: var(--ci-raised);
+  box-shadow: 0 3px 8px rgba(43, 38, 32, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li,
+[data-md-color-scheme="slate"] .md-typeset .grid > .card {
+  background-color: var(--ci-dark-raised);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+}
+
+/* Navigation chrome stays in the sans stack; sidebar section titles pick
+   up soft ink so the left rail reads as marginalia, not chrome */
+.md-nav__title {
+  color: var(--md-default-fg-color--light);
+}
