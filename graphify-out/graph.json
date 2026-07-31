@@ -3364,6 +3364,1118 @@
       "_origin": "ast"
     },
     {
+      "id": "docs_reference_frontend_api_client",
+      "label": "api-client.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_api_client",
+      "label": "API client",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_client_setup",
+      "label": "Client setup",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_base_url",
+      "label": "Base URL",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_auth_wiring_getter_callback_seams",
+      "label": "Auth wiring — getter/callback seams",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_timeouts_retries_and_idempotency",
+      "label": "Timeouts, retries, and idempotency",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_401_handling_and_token_refresh",
+      "label": "401 handling and token refresh",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_response_validation",
+      "label": "Response validation",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L85",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_pagination",
+      "label": "Pagination",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L95",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_trailing_slash_discipline",
+      "label": "Trailing-slash discipline",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "label": "Complete endpoint-wrapper table",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L112",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_habits_index_ts_1069_1114_habits_py_prefix_habits",
+      "label": "habits (`index.ts:1069-1114`) → `habits.py` (prefix `/habits`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L119",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_goalcompletions_index_ts_1133_1156_goal_completions_py_prefix_goal_completions",
+      "label": "goalCompletions (`index.ts:1133-1156`) → `goal_completions.py` (prefix `/goal_completions`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L132",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_goals_index_ts_1181_1185_goals_py_prefix_goals",
+      "label": "goals (`index.ts:1181-1185`) → `goals.py` (prefix `/goals`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L138",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_goalgroups_index_ts_1188_1201_goal_groups_py_prefix_goal_groups",
+      "label": "goalGroups (`index.ts:1188-1201`) → `goal_groups.py` (prefix `/goal-groups`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L144",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_journal_index_ts_1427_1497_journal_py_transcription_py_prefix_journal",
+      "label": "journal (`index.ts:1427-1497`) → `journal.py` + `transcription.py` (prefix `/journal`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L151",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_promotions_index_ts_1510_1548_journal_py",
+      "label": "promotions (`index.ts:1510-1548`) → `journal.py`",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L162",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_reflections_index_ts_1565_1592_reflections_py_prefix_reflections",
+      "label": "reflections (`index.ts:1565-1592`) → `reflections.py` (prefix `/reflections`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L171",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_resonance_index_ts_1594_1621_journal_py",
+      "label": "resonance (`index.ts:1594-1621`) → `journal.py`",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L178",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_completionsuggestions_index_ts_1633_1662_journal_py",
+      "label": "completionSuggestions (`index.ts:1633-1662`) → `journal.py`",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L186",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_invitations_index_ts_1672_1693_invitations_py_prefix_invitations",
+      "label": "invitations (`index.ts:1672-1693`) → `invitations.py` (prefix `/invitations`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L194",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_mettareturn_index_ts_1701_1768_metta_return_py_prefix_metta_return",
+      "label": "mettaReturn (`index.ts:1701-1768`) → `metta_return.py` (prefix `/metta-return`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L201",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_prompts_index_ts_1787_1816_prompts_py_prefix_prompts",
+      "label": "prompts (`index.ts:1787-1816`) → `prompts.py` (prefix `/prompts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L214",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_stages_index_ts_1874_1902_stages_py_prefix_stages",
+      "label": "stages (`index.ts:1874-1902`) → `stages.py` (prefix `/stages`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L222",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_wheel_index_ts_1910_1921_stages_py",
+      "label": "wheel (`index.ts:1910-1921`) → `stages.py`",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L231",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_course_index_ts_1972_2009_course_py_prefix_course",
+      "label": "course (`index.ts:1972-2009`) → `course.py` (prefix `/course`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L237",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_practices_index_ts_2237_2280_practices_py_prefix_practices",
+      "label": "practices (`index.ts:2237-2280`) → `practices.py` (prefix `/practices`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L250",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_userpractices_index_ts_2282_2318_user_practices_py_prefix_user_practices",
+      "label": "userPractices (`index.ts:2282-2318`) → `user_practices.py` (prefix `/user-practices`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L258",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_practicetags_index_ts_2350_2373_practice_tags_py_prefix_practice_tags",
+      "label": "practiceTags (`index.ts:2350-2373`) → `practice_tags.py` (prefix `/practice-tags`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L266",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_practicerecipes_index_ts_2432_2471_practice_recipes_py_prefix_practice_recipes",
+      "label": "practiceRecipes (`index.ts:2432-2471`) → `practice_recipes.py` (prefix `/practice-recipes`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L275",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_frequency_index_ts_2482_2511_user_practices_py",
+      "label": "frequency (`index.ts:2482-2511`) → `user_practices.py`",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L285",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_practicesessions_index_ts_2513_2532_practice_sessions_py_prefix_practice_sessions",
+      "label": "practiceSessions (`index.ts:2513-2532`) → `practice_sessions.py` (prefix `/practice-sessions`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L291",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_practiceshare_index_ts_2591_2631_practice_share_py_prefix_practices",
+      "label": "practiceShare (`index.ts:2591-2631`) → `practice_share.py` (prefix `/practices`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L299",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_auth_index_ts_2722_2818_auth_py_prefix_auth",
+      "label": "auth (`index.ts:2722-2818`) → `auth.py` (prefix `/auth`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L309",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_users_index_ts_2820_2844_users_py_prefix_users",
+      "label": "users (`index.ts:2820-2844`) → `users.py` (prefix `/users`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L322",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_depthpreferences_index_ts_2846_2882_depth_preferences_py_prefix_depth_preferences",
+      "label": "depthPreferences (`index.ts:2846-2882`) → `depth_preferences.py` (prefix `/depth-preferences`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L328",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_uiflags_index_ts_2884_2919_ui_flags_py_prefix_ui_flags",
+      "label": "uiFlags (`index.ts:2884-2919`) → `ui_flags.py` (prefix `/ui-flags`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L335",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_backend_routes_with_no_client_wrapper",
+      "label": "Backend routes with no client wrapper",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L342",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_typescript_types_vs_backend_schemas",
+      "label": "TypeScript types vs backend schemas",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L355",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_api_client_known_drift",
+      "label": "Known drift",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L363",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage",
+      "label": "design-usage.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage_design_system_usage",
+      "label": "Design-system usage",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage_tokens_ts_the_single_source_of_truth",
+      "label": "tokens.ts — the single source of truth",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage_the_semantic_warm_layer_surface_ink_accent",
+      "label": "The semantic warm layer: surface / ink / accent",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage_typography_type_width_editorialtype_fonts",
+      "label": "Typography — `type(width)`, `editorialType`, `fonts`",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage_layout_motion_accessibility_invariants",
+      "label": "Layout, motion, accessibility invariants",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L93",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage_themecontext_mode_as_token_swap",
+      "label": "ThemeContext — mode as token swap",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L110",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage_useresponsive",
+      "label": "useResponsive",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L132",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_design_usage_where_the_docs_corpus_complements_this",
+      "label": "Where the docs corpus complements this",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L150",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_auth",
+      "label": "auth.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_auth_auth",
+      "label": "Auth",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_auth_screens",
+      "label": "Screens",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_auth_hooks_and_helpers",
+      "label": "Hooks and helpers",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_auth_session_machine_behaviors_this_module_leans_on",
+      "label": "Session-machine behaviors this module leans on",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L48",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_course",
+      "label": "course.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_course_course",
+      "label": "Course",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_course_screen",
+      "label": "Screen",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_course_notable_behavior",
+      "label": "Notable behavior",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_course_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L40",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_habits",
+      "label": "habits.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_habits_habits",
+      "label": "Habits",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_habits_screen_and_layering",
+      "label": "Screen and layering",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_habits_notable_behavior",
+      "label": "Notable behavior",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_habits_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L57",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_index",
+      "label": "index.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_index_feature_modules",
+      "label": "Feature modules",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_invitations",
+      "label": "invitations.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_invitations_invitations",
+      "label": "Invitations",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_invitations_surface",
+      "label": "Surface",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_invitations_useinvitations",
+      "label": "`useInvitations`",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_invitations_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_journal",
+      "label": "journal.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_journal_journal",
+      "label": "Journal",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_journal_screens",
+      "label": "Screens",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_journal_shelf_behavior",
+      "label": "Shelf behavior",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_journal_entry_editor_behavior",
+      "label": "Entry editor behavior",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_journal_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_map",
+      "label": "map.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_map_map",
+      "label": "Map",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_map_screen",
+      "label": "Screen",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_map_service_layer",
+      "label": "Service layer",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_map_hooks",
+      "label": "Hooks",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L45",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_map_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L54",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_practice",
+      "label": "practice.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_practice_practice",
+      "label": "Practice",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_practice_screens",
+      "label": "Screens",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_practice_composition_of_the_player",
+      "label": "Composition of the player",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_practice_the_ritual_engine",
+      "label": "The ritual engine",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_practice_recipes_tags_data_sharing",
+      "label": "Recipes, tags, data, sharing",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_practice_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_return",
+      "label": "return.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_return_return",
+      "label": "Return",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_return_surface",
+      "label": "Surface",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_return_usemettareturn",
+      "label": "`useMettaReturn`",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_return_copy_and_session_modal",
+      "label": "Copy and session modal",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_return_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_settings",
+      "label": "settings.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_settings_settings",
+      "label": "Settings",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_settings_screens",
+      "label": "Screens",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_settings_choose_your_depths",
+      "label": "Choose your depths",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_settings_shared_form_scaffolding",
+      "label": "Shared form scaffolding",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_settings_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_welcome",
+      "label": "welcome.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_welcome_welcome",
+      "label": "Welcome",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_welcome_surface",
+      "label": "Surface",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_welcome_behavior",
+      "label": "Behavior",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_features_welcome_stores_and_api",
+      "label": "Stores and API",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_index",
+      "label": "index.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_index_frontend_deep_reference",
+      "label": "Frontend deep reference",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_index_what_is_in_this_section",
+      "label": "What is in this section",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_index_enumerated_surface_counts_from_source",
+      "label": "Enumerated surface (counts from source)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_index_entry_point_and_provider_stack",
+      "label": "Entry point and provider stack",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation",
+      "label": "navigation.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_navigation",
+      "label": "Navigation",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_the_graph",
+      "label": "The graph",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_auth_gate_rootnavigator",
+      "label": "Auth gate (`RootNavigator`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_welcome_gate",
+      "label": "Welcome gate",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_authstack_6_routes",
+      "label": "AuthStack — 6 routes",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L73",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_rootstack_11_routes",
+      "label": "RootStack — 11 routes",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_bottomtabs_5_destinations_ring_gated",
+      "label": "BottomTabs — 5 destinations, ring-gated",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L119",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_the_destinations_registry",
+      "label": "The destinations registry",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L133",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_ring_gating_mechanics",
+      "label": "Ring gating mechanics",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L168",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_deep_linking",
+      "label": "Deep linking",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L196",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_navigation_typed_hooks_and_nav_theme",
+      "label": "Typed hooks and nav theme",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L210",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state",
+      "label": "state.md",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_state_zustand_stores_and_persistence",
+      "label": "State — Zustand stores and persistence",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "label": "Store-by-store state shapes",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_usehabitstore_frontend_src_store_usehabitstore_ts",
+      "label": "`useHabitStore` (`frontend/src/store/useHabitStore.ts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_usestagestore_frontend_src_store_usestagestore_ts",
+      "label": "`useStageStore` (`frontend/src/store/useStageStore.ts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_useprogramstore_frontend_src_store_useprogramstore_ts",
+      "label": "`useProgramStore` (`frontend/src/store/useProgramStore.ts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_usedepthpreferencesstore_frontend_src_store_usedepthpreferencesstore_ts",
+      "label": "`useDepthPreferencesStore` (`frontend/src/store/useDepthPreferencesStore.ts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L84",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_usewelcomestore_frontend_src_store_usewelcomestore_ts",
+      "label": "`useWelcomeStore` (`frontend/src/store/useWelcomeStore.ts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L104",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_usecontractionsignalstore_frontend_src_store_usecontractionsignalstore_ts",
+      "label": "`useContractionSignalStore` (`frontend/src/store/useContractionSignalStore.ts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L117",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_derived_hooks_frontend_src_store_useprogramprogression_ts",
+      "label": "Derived hooks (`frontend/src/store/useProgramProgression.ts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L128",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_normalizedcollection_frontend_src_store_normalizedcollection_ts",
+      "label": "`normalizedCollection` (`frontend/src/store/normalizedCollection.ts`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L135",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_persistence_layer_frontend_src_storage",
+      "label": "Persistence layer (`frontend/src/storage/`)",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L142",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_complete_storage_module_table",
+      "label": "Complete storage-module table",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L161",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_the_logout_wipe",
+      "label": "The logout wipe",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L182",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_reference_frontend_state_hydration_and_invalidation_summary",
+      "label": "Hydration and invalidation summary",
+      "file_type": "document",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L190",
+      "_origin": "ast"
+    },
+    {
       "id": "scripts_graph_readme",
       "label": "README.md",
       "file_type": "document",
@@ -9046,6 +10158,1506 @@
       "confidence": "EXTRACTED",
       "source_file": "docs/products/wavelengthwatch.md",
       "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client",
+      "target": "docs_reference_frontend_api_client_api_client",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_api_client",
+      "target": "docs_reference_frontend_api_client_client_setup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_client_setup",
+      "target": "docs_reference_frontend_api_client_base_url",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_client_setup",
+      "target": "docs_reference_frontend_api_client_auth_wiring_getter_callback_seams",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_client_setup",
+      "target": "docs_reference_frontend_api_client_timeouts_retries_and_idempotency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_client_setup",
+      "target": "docs_reference_frontend_api_client_401_handling_and_token_refresh",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_client_setup",
+      "target": "docs_reference_frontend_api_client_response_validation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_client_setup",
+      "target": "docs_reference_frontend_api_client_pagination",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_client_setup",
+      "target": "docs_reference_frontend_api_client_trailing_slash_discipline",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_api_client",
+      "target": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_habits_index_ts_1069_1114_habits_py_prefix_habits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_goalcompletions_index_ts_1133_1156_goal_completions_py_prefix_goal_completions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_goals_index_ts_1181_1185_goals_py_prefix_goals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L138",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_goalgroups_index_ts_1188_1201_goal_groups_py_prefix_goal_groups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_journal_index_ts_1427_1497_journal_py_transcription_py_prefix_journal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_promotions_index_ts_1510_1548_journal_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_reflections_index_ts_1565_1592_reflections_py_prefix_reflections",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_resonance_index_ts_1594_1621_journal_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_completionsuggestions_index_ts_1633_1662_journal_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L186",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_invitations_index_ts_1672_1693_invitations_py_prefix_invitations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L194",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_mettareturn_index_ts_1701_1768_metta_return_py_prefix_metta_return",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_prompts_index_ts_1787_1816_prompts_py_prefix_prompts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L214",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_stages_index_ts_1874_1902_stages_py_prefix_stages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L222",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_wheel_index_ts_1910_1921_stages_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L231",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_course_index_ts_1972_2009_course_py_prefix_course",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L237",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_practices_index_ts_2237_2280_practices_py_prefix_practices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L250",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_userpractices_index_ts_2282_2318_user_practices_py_prefix_user_practices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L258",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_practicetags_index_ts_2350_2373_practice_tags_py_prefix_practice_tags",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L266",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_practicerecipes_index_ts_2432_2471_practice_recipes_py_prefix_practice_recipes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L275",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_frequency_index_ts_2482_2511_user_practices_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L285",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_practicesessions_index_ts_2513_2532_practice_sessions_py_prefix_practice_sessions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L291",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_practiceshare_index_ts_2591_2631_practice_share_py_prefix_practices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L299",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_auth_index_ts_2722_2818_auth_py_prefix_auth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L309",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_users_index_ts_2820_2844_users_py_prefix_users",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L322",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_depthpreferences_index_ts_2846_2882_depth_preferences_py_prefix_depth_preferences",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L328",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_uiflags_index_ts_2884_2919_ui_flags_py_prefix_ui_flags",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L335",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_complete_endpoint_wrapper_table",
+      "target": "docs_reference_frontend_api_client_backend_routes_with_no_client_wrapper",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L342",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_api_client",
+      "target": "docs_reference_frontend_api_client_typescript_types_vs_backend_schemas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L355",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_api_client_typescript_types_vs_backend_schemas",
+      "target": "docs_reference_frontend_api_client_known_drift",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/api-client.md",
+      "source_location": "L363",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage",
+      "target": "docs_reference_frontend_design_usage_design_system_usage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage",
+      "target": "docs_design_candle_and_ink",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage",
+      "target": "docs_decisions_0005_candle_and_ink_design_system",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage_design_system_usage",
+      "target": "docs_reference_frontend_design_usage_tokens_ts_the_single_source_of_truth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage_tokens_ts_the_single_source_of_truth",
+      "target": "docs_reference_frontend_design_usage_the_semantic_warm_layer_surface_ink_accent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage_tokens_ts_the_single_source_of_truth",
+      "target": "docs_reference_frontend_design_usage_typography_type_width_editorialtype_fonts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage_tokens_ts_the_single_source_of_truth",
+      "target": "docs_reference_frontend_design_usage_layout_motion_accessibility_invariants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage_design_system_usage",
+      "target": "docs_reference_frontend_design_usage_themecontext_mode_as_token_swap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage_design_system_usage",
+      "target": "docs_reference_frontend_design_usage_useresponsive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_design_usage_design_system_usage",
+      "target": "docs_reference_frontend_design_usage_where_the_docs_corpus_complements_this",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/design-usage.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_auth",
+      "target": "docs_reference_frontend_features_auth_auth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_auth",
+      "target": "docs_reference_frontend_navigation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_auth",
+      "target": "docs_decisions_0004_jwt_auth",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_auth_auth",
+      "target": "docs_reference_frontend_features_auth_screens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_auth_auth",
+      "target": "docs_reference_frontend_features_auth_hooks_and_helpers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_auth_auth",
+      "target": "docs_reference_frontend_features_auth_session_machine_behaviors_this_module_leans_on",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/auth.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_course",
+      "target": "docs_reference_frontend_features_course_course",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_course_course",
+      "target": "docs_reference_frontend_features_course_screen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_course_course",
+      "target": "docs_reference_frontend_features_course_notable_behavior",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_course_course",
+      "target": "docs_reference_frontend_features_course_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/course.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_habits",
+      "target": "docs_reference_frontend_features_habits_habits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_habits_habits",
+      "target": "docs_reference_frontend_features_habits_screen_and_layering",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_habits",
+      "target": "docs_reference_frontend_state",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_habits_habits",
+      "target": "docs_reference_frontend_features_habits_notable_behavior",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_habits_habits",
+      "target": "docs_reference_frontend_features_habits_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/habits.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_index_feature_modules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_auth",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_course",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_habits",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_invitations",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_journal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_map",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_practice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_return",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_settings",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_index",
+      "target": "docs_reference_frontend_features_welcome",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/index.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_invitations",
+      "target": "docs_reference_frontend_features_invitations_invitations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_invitations_invitations",
+      "target": "docs_reference_frontend_features_invitations_surface",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_invitations_invitations",
+      "target": "docs_reference_frontend_features_invitations_useinvitations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_invitations_invitations",
+      "target": "docs_reference_frontend_features_invitations_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/invitations.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_journal",
+      "target": "docs_reference_frontend_features_journal_journal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_journal",
+      "target": "docs_decisions_0012_local_first_privacy_tiers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_journal_journal",
+      "target": "docs_reference_frontend_features_journal_screens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_journal_journal",
+      "target": "docs_reference_frontend_features_journal_shelf_behavior",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_journal_journal",
+      "target": "docs_reference_frontend_features_journal_entry_editor_behavior",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_journal_journal",
+      "target": "docs_reference_frontend_features_journal_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/journal.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_map",
+      "target": "docs_reference_frontend_features_map_map",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_map_map",
+      "target": "docs_reference_frontend_features_map_screen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_map_map",
+      "target": "docs_reference_frontend_features_map_service_layer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_map_map",
+      "target": "docs_reference_frontend_features_map_hooks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_map_map",
+      "target": "docs_reference_frontend_features_map_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/map.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_practice",
+      "target": "docs_reference_frontend_features_practice_practice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_practice_practice",
+      "target": "docs_reference_frontend_features_practice_screens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_practice_practice",
+      "target": "docs_reference_frontend_features_practice_composition_of_the_player",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_practice_practice",
+      "target": "docs_reference_frontend_features_practice_the_ritual_engine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_practice_practice",
+      "target": "docs_reference_frontend_features_practice_recipes_tags_data_sharing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_practice_practice",
+      "target": "docs_reference_frontend_features_practice_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/practice.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_return",
+      "target": "docs_reference_frontend_features_return_return",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_return_return",
+      "target": "docs_reference_frontend_features_return_surface",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_return_return",
+      "target": "docs_reference_frontend_features_return_usemettareturn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_return_return",
+      "target": "docs_reference_frontend_features_return_copy_and_session_modal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_return_return",
+      "target": "docs_reference_frontend_features_return_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/return.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_settings",
+      "target": "docs_reference_frontend_features_settings_settings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_settings_settings",
+      "target": "docs_reference_frontend_features_settings_screens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_settings_settings",
+      "target": "docs_reference_frontend_features_settings_choose_your_depths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_settings",
+      "target": "docs_decisions_0006_graduated_engagement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_settings_settings",
+      "target": "docs_reference_frontend_features_settings_shared_form_scaffolding",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_settings_settings",
+      "target": "docs_reference_frontend_features_settings_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/settings.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_welcome",
+      "target": "docs_reference_frontend_features_welcome_welcome",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_welcome_welcome",
+      "target": "docs_reference_frontend_features_welcome_surface",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_welcome_welcome",
+      "target": "docs_reference_frontend_features_welcome_behavior",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_features_welcome_welcome",
+      "target": "docs_reference_frontend_features_welcome_stores_and_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/features/welcome.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index",
+      "target": "docs_reference_frontend_index_frontend_deep_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index",
+      "target": "docs_decisions_0003_react_native_expo_zustand",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index_frontend_deep_reference",
+      "target": "docs_reference_frontend_index_what_is_in_this_section",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index",
+      "target": "docs_reference_frontend_navigation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index",
+      "target": "docs_reference_frontend_features_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index",
+      "target": "docs_reference_frontend_state",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index",
+      "target": "docs_reference_frontend_api_client",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index",
+      "target": "docs_reference_frontend_design_usage",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index_frontend_deep_reference",
+      "target": "docs_reference_frontend_index_enumerated_surface_counts_from_source",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_index_frontend_deep_reference",
+      "target": "docs_reference_frontend_index_entry_point_and_provider_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/index.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation",
+      "target": "docs_reference_frontend_navigation_navigation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_navigation",
+      "target": "docs_reference_frontend_navigation_the_graph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_navigation",
+      "target": "docs_reference_frontend_navigation_auth_gate_rootnavigator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation",
+      "target": "docs_decisions_0004_jwt_auth",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_auth_gate_rootnavigator",
+      "target": "docs_reference_frontend_navigation_welcome_gate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_navigation",
+      "target": "docs_reference_frontend_navigation_authstack_6_routes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_navigation",
+      "target": "docs_reference_frontend_navigation_rootstack_11_routes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_navigation",
+      "target": "docs_reference_frontend_navigation_bottomtabs_5_destinations_ring_gated",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_bottomtabs_5_destinations_ring_gated",
+      "target": "docs_reference_frontend_navigation_the_destinations_registry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation",
+      "target": "docs_decisions_0006_graduated_engagement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_bottomtabs_5_destinations_ring_gated",
+      "target": "docs_reference_frontend_navigation_ring_gating_mechanics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_navigation",
+      "target": "docs_reference_frontend_navigation_deep_linking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L196",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_navigation_navigation",
+      "target": "docs_reference_frontend_navigation_typed_hooks_and_nav_theme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/navigation.md",
+      "source_location": "L210",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state",
+      "target": "docs_reference_frontend_state_state_zustand_stores_and_persistence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state",
+      "target": "docs_decisions_0003_react_native_expo_zustand",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_state_zustand_stores_and_persistence",
+      "target": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "target": "docs_reference_frontend_state_usehabitstore_frontend_src_store_usehabitstore_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "target": "docs_reference_frontend_state_usestagestore_frontend_src_store_usestagestore_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "target": "docs_reference_frontend_state_useprogramstore_frontend_src_store_useprogramstore_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "target": "docs_reference_frontend_state_usedepthpreferencesstore_frontend_src_store_usedepthpreferencesstore_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state",
+      "target": "docs_decisions_0006_graduated_engagement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "target": "docs_reference_frontend_state_usewelcomestore_frontend_src_store_usewelcomestore_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "target": "docs_reference_frontend_state_usecontractionsignalstore_frontend_src_store_usecontractionsignalstore_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "target": "docs_reference_frontend_state_derived_hooks_frontend_src_store_useprogramprogression_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_store_by_store_state_shapes",
+      "target": "docs_reference_frontend_state_normalizedcollection_frontend_src_store_normalizedcollection_ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_state_zustand_stores_and_persistence",
+      "target": "docs_reference_frontend_state_persistence_layer_frontend_src_storage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_persistence_layer_frontend_src_storage",
+      "target": "docs_reference_frontend_state_complete_storage_module_table",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L161",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_persistence_layer_frontend_src_storage",
+      "target": "docs_reference_frontend_state_the_logout_wipe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_reference_frontend_state_state_zustand_stores_and_persistence",
+      "target": "docs_reference_frontend_state_hydration_and_invalidation_summary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/reference/frontend/state.md",
+      "source_location": "L190",
       "weight": 1.0,
       "_origin": "ast"
     },
