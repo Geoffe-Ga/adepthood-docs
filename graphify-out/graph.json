@@ -1004,6 +1004,254 @@
       "_origin": "ast"
     },
     {
+      "id": "docs_architecture_walkthroughs_docs_sync",
+      "label": "docs-sync.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/docs-sync.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_docs_sync_walkthrough_a_source_repo_pr_this_docs_site",
+      "label": "Walkthrough: a source-repo PR → this docs site",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/docs-sync.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_docs_sync_hop_by_hop",
+      "label": "Hop by hop",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/docs-sync.md",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_docs_sync_failure_modes",
+      "label": "Failure modes",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/docs-sync.md",
+      "source_location": "L112",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_graph_pipeline",
+      "label": "graph-pipeline.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_graph_pipeline_walkthrough_a_code_merge_knowledge_graph_pan_graph",
+      "label": "Walkthrough: a code merge → knowledge graph → pan-graph",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_graph_pipeline_from_merge_to_published_graph",
+      "label": "From merge to published graph",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_graph_pipeline_from_six_graphs_to_one_pan_graph",
+      "label": "From six graphs to one pan-graph",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_graph_pipeline_how_a_session_consumes_it",
+      "label": "How a session consumes it",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L118",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_graph_pipeline_failure_modes",
+      "label": "Failure modes",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L139",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_habit_completion",
+      "label": "habit-completion.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_habit_completion_walkthrough_completing_a_habit",
+      "label": "Walkthrough: completing a habit",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_habit_completion_the_happy_path_hop_by_hop",
+      "label": "The happy path, hop by hop",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_habit_completion_where_energy_fits_and_doesn_t",
+      "label": "Where \"energy\" fits (and doesn't)",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L196",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_habit_completion_failure_modes",
+      "label": "Failure modes",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L206",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_index",
+      "label": "index.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_index_end_to_end_walkthroughs",
+      "label": "End-to-end walkthroughs",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_index_the_five_traces",
+      "label": "The five traces",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_index_reading_a_walkthrough",
+      "label": "Reading a walkthrough",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_journal_resonance",
+      "label": "journal-resonance.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_journal_resonance_walkthrough_journal_entry_higher_self_resonance",
+      "label": "Walkthrough: journal entry → Higher Self resonance",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_journal_resonance_creating_the_entry",
+      "label": "Creating the entry",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_journal_resonance_requesting_resonance",
+      "label": "Requesting resonance",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_journal_resonance_the_invitation_in_the_ui",
+      "label": "The invitation in the UI",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L123",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_journal_resonance_failure_modes",
+      "label": "Failure modes",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L158",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_sign_in",
+      "label": "sign-in.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_sign_in_walkthrough_signing_in",
+      "label": "Walkthrough: signing in",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_sign_in_login_hop_by_hop",
+      "label": "Login, hop by hop",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_sign_in_how_later_requests_carry_the_token",
+      "label": "How later requests carry the token",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L101",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_sign_in_expiry_and_refresh",
+      "label": "Expiry and refresh",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L126",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_walkthroughs_sign_in_failure_modes",
+      "label": "Failure modes",
+      "file_type": "document",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L161",
+      "_origin": "ast"
+    },
+    {
       "id": "docs_architecture_wavelength_demo",
       "label": "wavelength-demo.md",
       "file_type": "document",
@@ -5718,6 +5966,316 @@
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/index.md",
       "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_docs_sync",
+      "target": "docs_architecture_walkthroughs_docs_sync_walkthrough_a_source_repo_pr_this_docs_site",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/docs-sync.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_docs_sync_walkthrough_a_source_repo_pr_this_docs_site",
+      "target": "docs_architecture_walkthroughs_docs_sync_hop_by_hop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/docs-sync.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_docs_sync_walkthrough_a_source_repo_pr_this_docs_site",
+      "target": "docs_architecture_walkthroughs_docs_sync_failure_modes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/docs-sync.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_graph_pipeline",
+      "target": "docs_architecture_walkthroughs_graph_pipeline_walkthrough_a_code_merge_knowledge_graph_pan_graph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_graph_pipeline_walkthrough_a_code_merge_knowledge_graph_pan_graph",
+      "target": "docs_architecture_walkthroughs_graph_pipeline_from_merge_to_published_graph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_graph_pipeline_walkthrough_a_code_merge_knowledge_graph_pan_graph",
+      "target": "docs_architecture_walkthroughs_graph_pipeline_from_six_graphs_to_one_pan_graph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_graph_pipeline_walkthrough_a_code_merge_knowledge_graph_pan_graph",
+      "target": "docs_architecture_walkthroughs_graph_pipeline_how_a_session_consumes_it",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_graph_pipeline_walkthrough_a_code_merge_knowledge_graph_pan_graph",
+      "target": "docs_architecture_walkthroughs_graph_pipeline_failure_modes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/graph-pipeline.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_habit_completion",
+      "target": "docs_architecture_walkthroughs_habit_completion_walkthrough_completing_a_habit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_habit_completion_walkthrough_completing_a_habit",
+      "target": "docs_architecture_walkthroughs_habit_completion_the_happy_path_hop_by_hop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_habit_completion",
+      "target": "docs_architecture_walkthroughs_sign_in",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_habit_completion_walkthrough_completing_a_habit",
+      "target": "docs_architecture_walkthroughs_habit_completion_where_energy_fits_and_doesn_t",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L196",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_habit_completion_walkthrough_completing_a_habit",
+      "target": "docs_architecture_walkthroughs_habit_completion_failure_modes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/habit-completion.md",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_index",
+      "target": "docs_architecture_walkthroughs_index_end_to_end_walkthroughs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_index_end_to_end_walkthroughs",
+      "target": "docs_architecture_walkthroughs_index_the_five_traces",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_index",
+      "target": "docs_architecture_walkthroughs_habit_completion",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_index",
+      "target": "docs_architecture_walkthroughs_sign_in",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_index",
+      "target": "docs_architecture_walkthroughs_journal_resonance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_index",
+      "target": "docs_architecture_walkthroughs_graph_pipeline",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_index",
+      "target": "docs_architecture_walkthroughs_docs_sync",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_index_end_to_end_walkthroughs",
+      "target": "docs_architecture_walkthroughs_index_reading_a_walkthrough",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/index.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_journal_resonance",
+      "target": "docs_architecture_walkthroughs_journal_resonance_walkthrough_journal_entry_higher_self_resonance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_journal_resonance_walkthrough_journal_entry_higher_self_resonance",
+      "target": "docs_architecture_walkthroughs_journal_resonance_creating_the_entry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_journal_resonance_walkthrough_journal_entry_higher_self_resonance",
+      "target": "docs_architecture_walkthroughs_journal_resonance_requesting_resonance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_journal_resonance_walkthrough_journal_entry_higher_self_resonance",
+      "target": "docs_architecture_walkthroughs_journal_resonance_the_invitation_in_the_ui",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_journal_resonance_walkthrough_journal_entry_higher_self_resonance",
+      "target": "docs_architecture_walkthroughs_journal_resonance_failure_modes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/journal-resonance.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_sign_in",
+      "target": "docs_architecture_walkthroughs_sign_in_walkthrough_signing_in",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_sign_in_walkthrough_signing_in",
+      "target": "docs_architecture_walkthroughs_sign_in_login_hop_by_hop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_sign_in_walkthrough_signing_in",
+      "target": "docs_architecture_walkthroughs_sign_in_how_later_requests_carry_the_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_sign_in_walkthrough_signing_in",
+      "target": "docs_architecture_walkthroughs_sign_in_expiry_and_refresh",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L126",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_walkthroughs_sign_in_walkthrough_signing_in",
+      "target": "docs_architecture_walkthroughs_sign_in_failure_modes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/walkthroughs/sign-in.md",
+      "source_location": "L161",
       "weight": 1.0,
       "_origin": "ast"
     },
