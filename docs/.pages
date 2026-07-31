@@ -1,0 +1,14 @@
+# Deliberate category order for the site navigation (awesome-pages).
+# Static config — the docs-sync agent must never create, modify, or delete
+# this file. Ordering rationale: product context first, then structure,
+# then tasks, then rationale, then look-and-feel, then process, then the
+# audit trail.
+nav:
+  - index.md
+  - products
+  - architecture
+  - how-to
+  - decisions
+  - design
+  - contributing
+  - changelog
