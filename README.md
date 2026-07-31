@@ -32,8 +32,9 @@ wrong; they do not approve sync PRs.
 
 The corpus is a [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
 site with navigation derived from the directory tree (awesome-pages — no
-`nav:` key, ever). Published site: GitHub Pages link coming once publishing
-lands (placeholder: <https://geoffe-ga.github.io/adepthood-docs/>).
+`nav:` key, ever). Published site:
+<https://geoffe-ga.github.io/adepthood-docs/> — deployed automatically on
+every merge to `main`.
 
 Build locally:
 
