@@ -33,7 +33,7 @@ wrong; they do not approve sync PRs.
 The corpus is a [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
 site with navigation derived from the directory tree (awesome-pages — no
 `nav:` key, ever). Published site:
-<https://geoffe-ga.github.io/adepthood-docs/> — deployed automatically on
+<https://docs.aptitude.guru/> — deployed automatically on
 every merge to `main`.
 
 Build locally:
