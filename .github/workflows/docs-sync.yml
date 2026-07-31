@@ -1,0 +1,190 @@
+name: Docs Sync
+
+# Autonomous pull-model docs sync (ADR 0013, ADR 0014). Every 6 hours (and
+# on demand) this workflow polls the five source repos for PRs merged since
+# the committed watermarks, feeds them to a Sonnet-powered sync agent that
+# edits ONLY docs/ + state/, then deterministically branches, commits,
+# pushes, opens a PR, and enables auto-merge. The Docs CI gates are the
+# reviewer. Quiet windows exit before the agent step runs — zero LLM cost.
+#
+# Owner prerequisites for live runs: the CLAUDE_CODE_OAUTH_TOKEN repository
+# secret must be set, and the repo's allow-auto-merge setting enabled
+# (without the latter, PRs still open but wait for a manual merge).
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: docs-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  # OIDC token for the claude action's auth exchange.
+  id-token: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          fetch-depth: 1
+
+      # If a previous run's PR is still open, this window must not race it:
+      # its watermark advance has not merged yet, so a second run would fold
+      # the same PRs again. Comment on the stuck PR and bail out cleanly.
+      - name: Guard against a stuck docs-sync PR
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          stuck_pr=$(gh api "repos/$GITHUB_REPOSITORY/pulls?state=open&per_page=100" \
+            --jq '[.[] | select(.head.ref | startswith("docs-sync/"))] | first | .number // empty')
+          if [ -n "$stuck_pr" ]; then
+            echo "Open docs-sync PR #$stuck_pr found; skipping this window." >&2
+            gh api "repos/$GITHUB_REPOSITORY/issues/$stuck_pr/comments" \
+              -f body="A scheduled docs-sync run found this PR still open and skipped its window. Merge or close this PR to let the pipeline resume (run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)." \
+              > /dev/null
+            echo "blocked=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "blocked=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.guard.outputs.blocked == 'false'
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1  # v6.3.0
+        with:
+          python-version: "3.12"
+
+      - name: Collect merged PRs since watermarks
+        id: collect
+        if: steps.guard.outputs.blocked == 'false'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/sync/collect_merged_prs.py \
+            --watermarks state/sync-watermarks.json \
+            --out sync-input.json
+          pr_count=$(python3 -c "import json; print(len(json.load(open('sync-input.json'))['prs']))")
+          repo_count=$(python3 -c "import json; print(len({p['repo'] for p in json.load(open('sync-input.json'))['prs']}))")
+          if [ "$pr_count" -gt 0 ]; then
+            echo "has_prs=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_prs=false" >> "$GITHUB_OUTPUT"
+            echo "Quiet window: no merged PRs since the watermarks; agent will not run." >&2
+          fi
+          echo "pr_count=$pr_count" >> "$GITHUB_OUTPUT"
+          echo "repo_count=$repo_count" >> "$GITHUB_OUTPUT"
+
+      # The agent edits docs/ + state/ ONLY; all git mechanics stay in the
+      # deterministic steps below. Guarded so quiet windows cost no tokens.
+      - name: Fold merged PRs into the corpus
+        if: steps.guard.outputs.blocked == 'false' && steps.collect.outputs.has_prs == 'true'
+        uses: anthropics/claude-code-action@be7b93b1907a4abad570368f3c74b6fe3807510b  # v1.0.183
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Read scripts/sync/PROMPT.md in this repository and follow it
+            exactly. Your input is sync-input.json at the repository root.
+            Edit only files under docs/ plus state/sync-watermarks.json.
+            Do not run any git commands: the workflow commits and opens the
+            PR for you.
+          claude_args: >-
+            --model claude-sonnet-5
+
+      - name: Commit and push docs-sync branch
+        id: push
+        if: steps.guard.outputs.blocked == 'false' && steps.collect.outputs.has_prs == 'true'
+        env:
+          PR_COUNT: ${{ steps.collect.outputs.pr_count }}
+          REPO_COUNT: ${{ steps.collect.outputs.repo_count }}
+        run: |
+          run_date=$(date -u +%Y-%m-%d-%H%M)
+          branch="docs-sync/$run_date"
+          if [ -z "$(git status --porcelain -- docs state)" ]; then
+            echo "::warning::Agent produced no changes under docs/ or state/; nothing to push."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add docs state
+          git commit -m "docs(sync): fold $PR_COUNT merged PRs from $REPO_COUNT repos"
+          git push origin "$branch"
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+
+      - name: Open docs PR
+        id: open_pr
+        if: steps.push.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ steps.push.outputs.branch }}
+          PR_COUNT: ${{ steps.collect.outputs.pr_count }}
+          REPO_COUNT: ${{ steps.collect.outputs.repo_count }}
+        run: |
+          python3 - <<'PY'
+          """Build the docs PR body from sync-input.json."""
+          import json
+
+          with open("sync-input.json", encoding="utf-8") as handle:
+              payload = json.load(handle)
+
+          lines = [
+              "Autonomous docs-sync run: folds the source-repo PRs merged",
+              "since the last committed watermarks into the corpus.",
+              "",
+              "## Folded PRs",
+              "",
+          ]
+          for pr in payload["prs"]:
+              suffix = " *(patch truncated)*" if pr.get("truncated") else ""
+              lines.append(
+                  f"- {pr['repo']}#{pr['number']} — "
+                  f"[{pr['title']}]({pr['html_url']}) "
+                  f"(merged {pr['merged_at']}){suffix}"
+              )
+          lines += [
+              "",
+              "## Watermarks",
+              "",
+              "Advanced in `state/sync-watermarks.json` (same commit):",
+              "",
+          ]
+          for repo, mark in payload["new_watermarks"].items():
+              lines.append(f"- `{repo}` -> `{mark}`")
+          lines += [
+              "",
+              "Auto-merges on green Docs CI gates (ADR 0014).",
+              "",
+          ]
+          with open("pr-body.md", "w", encoding="utf-8") as handle:
+              handle.write("\n".join(lines))
+          PY
+          pr_number=$(gh api "repos/$GITHUB_REPOSITORY/pulls" \
+            -f title="docs(sync): fold $PR_COUNT merged PRs from $REPO_COUNT repos" \
+            -f head="$BRANCH" \
+            -f base="main" \
+            -F body=@pr-body.md \
+            --jq '.number')
+          echo "Opened PR #$pr_number" >&2
+          echo "number=$pr_number" >> "$GITHUB_OUTPUT"
+
+      # Auto-merge requires the repo's allow-auto-merge setting; when it is
+      # off this must degrade to a warning, never a job failure — the PR is
+      # open either way and a human can merge it.
+      - name: Enable auto-merge (squash)
+        if: steps.open_pr.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ steps.open_pr.outputs.number }}
+        run: |
+          if ! gh pr merge --squash --auto "$PR_NUMBER" --repo "$GITHUB_REPOSITORY"; then
+            echo "::warning::Could not enable auto-merge on PR #$PR_NUMBER (is the repo's allow-auto-merge setting on?). The PR is open and awaits a manual merge."
+          fi
