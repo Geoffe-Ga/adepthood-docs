@@ -7,3 +7,9 @@ node_modules/
 
 # OS noise
 .DS_Store
+
+# Graphify build artifacts — graph.json itself IS committed (in-tree
+# distribution: adepthood's federation fetches it raw from main), but the
+# local extraction cache and manifest stay out of the tree.
+graphify-out/*
+!graphify-out/graph.json
