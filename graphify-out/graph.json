@@ -52,6 +52,598 @@
       "_origin": "ast"
     },
     {
+      "id": "scripts_sync_collect_merged_prs",
+      "label": "collect_merged_prs.py",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_ratelimiterror",
+      "label": "RateLimitError",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "runtimeerror",
+      "label": "RuntimeError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_log",
+      "label": "_log()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L55",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_http_get_json",
+      "label": "_http_get_json()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L60",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_py_any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_parse_timestamp",
+      "label": "_parse_timestamp()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L87",
+      "_origin": "ast"
+    },
+    {
+      "id": "datetime",
+      "label": "datetime",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_list_url",
+      "label": "_list_url()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L92",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_files_url",
+      "label": "_files_url()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L106",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "label": "_fetch_merged_prs()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L112",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_fetch_pr_files",
+      "label": "_fetch_pr_files()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L141",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_build_patch",
+      "label": "_build_patch()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L163",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_collect_record",
+      "label": "_collect_record()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L180",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_count_lines",
+      "label": "_count_lines()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L204",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_apply_patch_caps",
+      "label": "_apply_patch_caps()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L209",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_collect",
+      "label": "collect()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L243",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_parse_args",
+      "label": "_parse_args()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L278",
+      "_origin": "ast"
+    },
+    {
+      "id": "namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L306",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_1",
+      "label": "Collect merged PRs from the Adepthood source repos since per-repo watermarks.  S",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_52",
+      "label": "Raised when the GitHub API answers with a rate-limit status (403/429).",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_56",
+      "label": "Write a diagnostic line to stderr (stdout stays clean for tooling).",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_61",
+      "label": "GET ``url`` and return the parsed JSON body.      Sends a Bearer token when the",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L61",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_88",
+      "label": "Parse a GitHub ISO-8601 timestamp (``2026-07-31T03:56:45Z``) to UTC.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L88",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_93",
+      "label": "Build the closed-PRs listing URL for ``repo`` at ``page``.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L93",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_107",
+      "label": "Build the changed-files listing URL for PR ``number`` at ``page``.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L107",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_113",
+      "label": "Return PRs in ``repo`` merged strictly after ``watermark``.      Pages through c",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L113",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_142",
+      "label": "Return (changed files, files_truncated) for a PR, capped at 200 files.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L142",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_164",
+      "label": "Assemble one unified patch text from per-file ``patch`` fields.      Files witho",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L164",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_181",
+      "label": "Build the sync-input record for one merged PR (patch caps applied later).",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L181",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_205",
+      "label": "Return the number of lines in ``text`` (0 for the empty string).",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L205",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_212",
+      "label": "Enforce the per-PR and total patch-size caps in place.      Records must already",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L212",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_248",
+      "label": "Poll every watermarked repo and build the sync-input payload.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L248",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_279",
+      "label": "Parse the command-line interface.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L279",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_collect_merged_prs_rationale_307",
+      "label": "CLI entry point: read watermarks, poll GitHub, write sync-input.json.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L307",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs",
+      "label": "test_collect_merged_prs.py",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_pull",
+      "label": "_pull()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_py_any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_file",
+      "label": "_file()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "label": "FakeAPI",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_fakeapi_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L54",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_fakeapi_call",
+      "label": ".__call__()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_run",
+      "label": "_run()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L82",
+      "_origin": "ast"
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "monkeypatch",
+      "label": "MonkeyPatch",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "label": "test_watermark_filtering_strictly_greater()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L102",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_unmerged_closed_prs_are_ignored",
+      "label": "test_unmerged_closed_prs_are_ignored()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L124",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "label": "test_pagination_stops_once_updated_at_precedes_watermark()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L134",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "label": "test_per_pr_patch_cap_drops_patch_keeps_files()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L152",
+      "_origin": "ast"
+    },
+    {
+      "id": "capturefixture",
+      "label": "CaptureFixture",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "label": "test_total_patch_cap_drops_later_prs_only()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L172",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "label": "test_prs_sorted_by_merged_at_ascending()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L203",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_empty_window_writes_empty_prs_and_keeps_watermarks",
+      "label": "test_empty_window_writes_empty_prs_and_keeps_watermarks()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L226",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "label": "test_new_watermarks_advance_to_max_merged_at()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L237",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "label": "test_rate_limit_skips_repo_and_keeps_watermark()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L265",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "label": "test_files_capped_at_two_hundred()",
+      "file_type": "code",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L300",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_1",
+      "label": "Offline tests for collect_merged_prs.py — HTTP layer fully stubbed.  Runs with `",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_27",
+      "label": "Build a minimal closed-PR listing entry.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_39",
+      "label": "Build a minimal changed-file entry.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_47",
+      "label": "URL-dispatching stub for _http_get_json.      ``pull_pages`` maps repo -> list o",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L47",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_59",
+      "label": "Store canned responses and start the request log.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L59",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_65",
+      "label": "Dispatch a GET to the canned pages, mimicking GitHub pagination.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_89",
+      "label": "Run main() against the stubbed API and return the parsed output.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_105",
+      "label": "Older and watermark-equal merges are excluded; newer are kept.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L105",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_127",
+      "label": "Closed-but-not-merged PRs (merged_at null) never appear.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L127",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_137",
+      "label": "An updated_at older than the watermark ends pagination early.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L137",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_157",
+      "label": "A patch over --max-patch-lines is dropped, flagged, and logged.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L157",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_177",
+      "label": "The total budget favors older merges; later PRs lose their patch.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L177",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_206",
+      "label": "Output PRs are ordered oldest-merge-first across repos.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L206",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_229",
+      "label": "No new merges: exit 0, prs is [], watermarks pass through unchanged.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L229",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_240",
+      "label": "new_watermarks carries the max merged_at seen per repo.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L240",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_270",
+      "label": "A 403/429 skips the repo with a warning; other repos still collect.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L270",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_test_collect_merged_prs_rationale_303",
+      "label": "A PR with more than 200 changed files keeps 200 and sets the flag.",
+      "file_type": "rationale",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L303",
+      "_origin": "ast"
+    },
+    {
       "id": "claude",
       "label": "CLAUDE.md",
       "file_type": "document",
@@ -2570,6 +3162,70 @@
       "source_file": "scripts/graph/README.md",
       "source_location": "L56",
       "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_prompt",
+      "label": "PROMPT.md",
+      "file_type": "document",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_prompt_docs_sync_agent_instructions",
+      "label": "Docs-Sync Agent Instructions",
+      "file_type": "document",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_prompt_input",
+      "label": "Input",
+      "file_type": "document",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_prompt_filing_rules",
+      "label": "Filing rules",
+      "file_type": "document",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_prompt_changelog_every_pr_no_exceptions",
+      "label": "Changelog — every PR, no exceptions",
+      "file_type": "document",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_prompt_watermarks_atomic_with_the_doc_edits",
+      "label": "Watermarks — atomic with the doc edits",
+      "file_type": "document",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L78",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_prompt_hard_boundaries",
+      "label": "Hard boundaries",
+      "file_type": "document",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L93",
+      "_origin": "ast"
+    },
+    {
+      "id": "scripts_sync_prompt_quality_gates",
+      "label": "Quality gates",
+      "file_type": "document",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L102",
+      "_origin": "ast"
     }
   ],
   "links": [
@@ -2623,6 +3279,1866 @@
       "source_location": "L64",
       "weight": 1.0,
       "context": "call",
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "urllib_error",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "urllib_parse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "urllib_request",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_ratelimiterror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_ratelimiterror",
+      "target": "runtimeerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_log",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_http_get_json",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_http_get_json",
+      "target": "scripts_sync_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_parse_timestamp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_parse_timestamp",
+      "target": "datetime",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_list_url",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_files_url",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "target": "datetime",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_fetch_pr_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_fetch_pr_files",
+      "target": "scripts_sync_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_build_patch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_build_patch",
+      "target": "scripts_sync_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_collect_record",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L180",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect_record",
+      "target": "scripts_sync_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L180",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_count_lines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L204",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_apply_patch_caps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_apply_patch_caps",
+      "target": "scripts_sync_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_collect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L243",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect",
+      "target": "scripts_sync_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L243",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L278",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_parse_args",
+      "target": "namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L278",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L306",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_http_get_json",
+      "target": "scripts_sync_collect_merged_prs_ratelimiterror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_http_get_json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_list_url",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "target": "scripts_sync_collect_merged_prs_parse_timestamp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_fetch_pr_files",
+      "target": "scripts_sync_collect_merged_prs_http_get_json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_fetch_pr_files",
+      "target": "scripts_sync_collect_merged_prs_files_url",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect_record",
+      "target": "scripts_sync_collect_merged_prs_fetch_pr_files",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L182",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect_record",
+      "target": "scripts_sync_collect_merged_prs_build_patch",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L199",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_apply_patch_caps",
+      "target": "scripts_sync_collect_merged_prs_count_lines",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L221",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_apply_patch_caps",
+      "target": "scripts_sync_collect_merged_prs_log",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L240",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect",
+      "target": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L254",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect",
+      "target": "scripts_sync_collect_merged_prs_parse_timestamp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L254",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect",
+      "target": "scripts_sync_collect_merged_prs_collect_record",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L255",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect",
+      "target": "scripts_sync_collect_merged_prs_log",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L257",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_collect",
+      "target": "scripts_sync_collect_merged_prs_apply_patch_caps",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L267",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_main",
+      "target": "scripts_sync_collect_merged_prs_parse_args",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L308",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_main",
+      "target": "scripts_sync_collect_merged_prs_collect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L311",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_main",
+      "target": "scripts_sync_collect_merged_prs_log",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L315",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_1",
+      "target": "scripts_sync_collect_merged_prs",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_52",
+      "target": "scripts_sync_collect_merged_prs_ratelimiterror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_56",
+      "target": "scripts_sync_collect_merged_prs_log",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_61",
+      "target": "scripts_sync_collect_merged_prs_http_get_json",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_88",
+      "target": "scripts_sync_collect_merged_prs_parse_timestamp",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_93",
+      "target": "scripts_sync_collect_merged_prs_list_url",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_107",
+      "target": "scripts_sync_collect_merged_prs_files_url",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_113",
+      "target": "scripts_sync_collect_merged_prs_fetch_merged_prs",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_142",
+      "target": "scripts_sync_collect_merged_prs_fetch_pr_files",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_164",
+      "target": "scripts_sync_collect_merged_prs_build_patch",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_181",
+      "target": "scripts_sync_collect_merged_prs_collect_record",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_205",
+      "target": "scripts_sync_collect_merged_prs_count_lines",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L205",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_212",
+      "target": "scripts_sync_collect_merged_prs_apply_patch_caps",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L212",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_248",
+      "target": "scripts_sync_collect_merged_prs_collect",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L248",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_279",
+      "target": "scripts_sync_collect_merged_prs_parse_args",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L279",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_collect_merged_prs_rationale_307",
+      "target": "scripts_sync_collect_merged_prs_main",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/collect_merged_prs.py",
+      "source_location": "L307",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "urllib_parse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "collect_merged_prs",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_pull",
+      "target": "scripts_sync_test_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_file",
+      "target": "scripts_sync_test_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_fakeapi_init",
+      "target": "scripts_sync_test_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi_call",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_fakeapi_call",
+      "target": "scripts_sync_test_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_run",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_run",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_run",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_run",
+      "target": "scripts_sync_test_collect_merged_prs_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_unmerged_closed_prs_are_ignored",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_unmerged_closed_prs_are_ignored",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_unmerged_closed_prs_are_ignored",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "target": "capturefixture",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "target": "capturefixture",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L203",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L203",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L203",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_empty_window_writes_empty_prs_and_keeps_watermarks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_empty_window_writes_empty_prs_and_keeps_watermarks",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_empty_window_writes_empty_prs_and_keeps_watermarks",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L237",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L237",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L237",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L265",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L265",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L265",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "target": "capturefixture",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L265",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs",
+      "target": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L300",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L300",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L300",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_unmerged_closed_prs_are_ignored",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_unmerged_closed_prs_are_ignored",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_unmerged_closed_prs_are_ignored",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L140",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L161",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L193",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L208",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L210",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L213",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L219",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_empty_window_writes_empty_prs_and_keeps_watermarks",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L230",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_empty_window_writes_empty_prs_and_keeps_watermarks",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L231",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L242",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L246",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L252",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L258",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L272",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L273",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L274",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L304",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L305",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L306",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L309",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_1",
+      "target": "scripts_sync_test_collect_merged_prs",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_27",
+      "target": "scripts_sync_test_collect_merged_prs_pull",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_39",
+      "target": "scripts_sync_test_collect_merged_prs_file",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_47",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_59",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_65",
+      "target": "scripts_sync_test_collect_merged_prs_fakeapi_call",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_89",
+      "target": "scripts_sync_test_collect_merged_prs_run",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_105",
+      "target": "scripts_sync_test_collect_merged_prs_test_watermark_filtering_strictly_greater",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_127",
+      "target": "scripts_sync_test_collect_merged_prs_test_unmerged_closed_prs_are_ignored",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_137",
+      "target": "scripts_sync_test_collect_merged_prs_test_pagination_stops_once_updated_at_precedes_watermark",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_157",
+      "target": "scripts_sync_test_collect_merged_prs_test_per_pr_patch_cap_drops_patch_keeps_files",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_177",
+      "target": "scripts_sync_test_collect_merged_prs_test_total_patch_cap_drops_later_prs_only",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L177",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_206",
+      "target": "scripts_sync_test_collect_merged_prs_test_prs_sorted_by_merged_at_ascending",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_229",
+      "target": "scripts_sync_test_collect_merged_prs_test_empty_window_writes_empty_prs_and_keeps_watermarks",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L229",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_240",
+      "target": "scripts_sync_test_collect_merged_prs_test_new_watermarks_advance_to_max_merged_at",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L240",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_270",
+      "target": "scripts_sync_test_collect_merged_prs_test_rate_limit_skips_repo_and_keeps_watermark",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L270",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_test_collect_merged_prs_rationale_303",
+      "target": "scripts_sync_test_collect_merged_prs_test_files_capped_at_two_hundred",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/test_collect_merged_prs.py",
+      "source_location": "L303",
+      "weight": 1.0,
       "_origin": "ast"
     },
     {
@@ -5977,7 +8493,7 @@
     },
     {
       "source": "scripts_graph_readme",
-      "target": "workspace_lane_6_scripts_graph_requirements_txt",
+      "target": "home_runner_work_adepthood_docs_adepthood_docs_scripts_graph_requirements_txt",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "scripts/graph/README.md",
@@ -6022,6 +8538,76 @@
       "confidence": "EXTRACTED",
       "source_file": "scripts/graph/README.md",
       "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_prompt",
+      "target": "scripts_sync_prompt_docs_sync_agent_instructions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_prompt_docs_sync_agent_instructions",
+      "target": "scripts_sync_prompt_input",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_prompt_docs_sync_agent_instructions",
+      "target": "scripts_sync_prompt_filing_rules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_prompt_docs_sync_agent_instructions",
+      "target": "scripts_sync_prompt_changelog_every_pr_no_exceptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_prompt_docs_sync_agent_instructions",
+      "target": "scripts_sync_prompt_watermarks_atomic_with_the_doc_edits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_prompt_docs_sync_agent_instructions",
+      "target": "scripts_sync_prompt_hard_boundaries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "scripts_sync_prompt_docs_sync_agent_instructions",
+      "target": "scripts_sync_prompt_quality_gates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync/PROMPT.md",
+      "source_location": "L102",
       "weight": 1.0,
       "_origin": "ast"
     }
