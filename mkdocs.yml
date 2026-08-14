@@ -46,12 +46,22 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  # Folds `securityLevel: loose` into Material's own mermaid init so the
+  # `click` directives in architecture/the-loop.md resolve to links.
+  # Mermaid defaults to `strict`, which disables them silently.
+  - javascripts/mermaid-config.js
+
 plugins:
   - search
   - awesome-pages
 
 markdown_extensions:
   - admonition
+  # Collapsible `???` admonitions. `admonition` alone renders only the
+  # static `!!!` form; without this a `???` block loses its disclosure
+  # arrow and renders permanently open.
+  - pymdownx.details
   - attr_list
   - md_in_html
   - pymdownx.superfences:
