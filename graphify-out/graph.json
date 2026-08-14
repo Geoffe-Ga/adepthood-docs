@@ -4,6 +4,14 @@
   "output_tokens": 0,
   "nodes": [
     {
+      "id": "docs_javascripts_mermaid_config",
+      "label": "mermaid-config.js",
+      "file_type": "code",
+      "source_file": "docs/javascripts/mermaid-config.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "scripts_graph_build",
       "label": "build.sh",
       "file_type": "code",
@@ -1009,6 +1017,134 @@
       "file_type": "document",
       "source_file": "docs/architecture/index.md",
       "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop",
+      "label": "the-loop.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_the_loop",
+      "label": "The loop",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_the_legend",
+      "label": "The legend",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_the_whole_system",
+      "label": "The whole system",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_what_is_actually_running",
+      "label": "What is actually running",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L197",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_1_inflows",
+      "label": "① Inflows",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L260",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_2_governors",
+      "label": "② Governors",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L303",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_backlog_max_50",
+      "label": "BACKLOG_MAX = 50",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L310",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_min_queue_12",
+      "label": "MIN_QUEUE = 12",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L319",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_max_queue_80",
+      "label": "MAX_QUEUE = 80",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L326",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_6_hour_cooldown",
+      "label": "6-hour cooldown",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L332",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_3_balancing_loops",
+      "label": "③ Balancing loops",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L351",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_4_the_inner_system",
+      "label": "④ The inner system",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L375",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_the_merge_decision",
+      "label": "The merge decision",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L421",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_5_metrics",
+      "label": "⑤ Metrics",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L447",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_architecture_the_loop_what_the_model_teaches",
+      "label": "What the model teaches",
+      "file_type": "document",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L471",
       "_origin": "ast"
     },
     {
@@ -10844,6 +10980,156 @@
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/index.md",
       "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop",
+      "target": "docs_architecture_the_loop_the_loop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_the_legend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_the_whole_system",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_what_is_actually_running",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L197",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_1_inflows",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L260",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_2_governors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L303",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_2_governors",
+      "target": "docs_architecture_the_loop_backlog_max_50",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L310",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_2_governors",
+      "target": "docs_architecture_the_loop_min_queue_12",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L319",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_2_governors",
+      "target": "docs_architecture_the_loop_max_queue_80",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L326",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_2_governors",
+      "target": "docs_architecture_the_loop_6_hour_cooldown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L332",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_3_balancing_loops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L351",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_4_the_inner_system",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L375",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_4_the_inner_system",
+      "target": "docs_architecture_the_loop_the_merge_decision",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L421",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_5_metrics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L447",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_architecture_the_loop_the_loop",
+      "target": "docs_architecture_the_loop_what_the_model_teaches",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/the-loop.md",
+      "source_location": "L471",
       "weight": 1.0,
       "_origin": "ast"
     },
