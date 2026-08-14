@@ -10,7 +10,13 @@
     "MD033": false,
     // Duplicate headings allowed when not siblings (e.g. dated changelog
     // files each containing an "## HH:MM UTC" heading).
-    "MD024": { "siblings_only": true }
+    "MD024": { "siblings_only": true },
+    // Code-block style: Material admonitions (`!!!` / `???`) require a
+    // 4-space-indented body, which MD046 cannot distinguish from an indented
+    // code block. In "consistent" mode a page that uses both an admonition and
+    // a fenced block (e.g. mermaid) is unsatisfiable -- whichever appears first
+    // makes the other an error. Relaxed rather than contorting pages around it.
+    "MD046": false
   },
   "ignores": ["node_modules/**", "site/**", ".venv/**"]
 }
