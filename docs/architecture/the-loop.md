@@ -53,6 +53,7 @@ flowchart TB
 
     subgraph SOURCES ["① Inflows — what creates issues"]
         direction TB
+        SESSIONS["Agent sessions<br/>interactive + planning skills<br/>the largest inflow"]:::flow
         FLARE["/flare<br/>human-invoked only"]:::human
         SCANS["12 producer scans<br/>startup_failure · never run"]:::dead
         DEPBOT["Dependabot → Ralph bridge<br/>on PR open"]:::flow
@@ -95,6 +96,7 @@ flowchart TB
     end
 
     FLARE --> BMAX
+    SESSIONS -->|bypasses every governor| STOCK
     SCANS -.-> BMAX
     DEPBOT --> STOCK
     GRAPHST --> BMAX
@@ -128,6 +130,7 @@ flowchart TB
     PLAYOUT -.->|"rules · anchor still empty"| G1
     PRS -->|"closes"| STOCK
 
+    click SESSIONS "https://github.com/Geoffe-Ga/adepthood/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-desc" "Recently filed issues — most arrive from agent sessions"
     click FLARE "https://github.com/Geoffe-Ga/adepthood/blob/main/.claude/skills/flare/SKILL.md" "The /flare skill — human-invoked issue filing"
     click SCANS "https://github.com/Geoffe-Ga/adepthood/actions/workflows/scan-todo.yml" "Run history — every run is startup_failure"
     click DEPBOT "https://github.com/Geoffe-Ga/adepthood/blob/main/.github/workflows/dependabot-to-ralph-issue.yml" "The Dependabot to Ralph bridge"
@@ -220,10 +223,12 @@ its branches are dark.
     to read. The run list shows a neutral entry rather than a failure anybody
     would chase.
 
-    **The consequence for the model:** the entire producer half of the inflow is
-    absent. The 89 open issues arrived through human `/flare` and the Dependabot
-    bridge alone, while the governors kept measuring a supply that was never
-    arriving.
+    **The consequence for the model:** the scheduled producer half of the inflow
+    is absent, and the governors kept measuring a supply that was never arriving.
+
+    An earlier version of this page went further and said the open issues had
+    therefore arrived through `/flare` and the Dependabot bridge alone. That was
+    wrong, and the correction is the more interesting finding — see below.
 
     [Read the issue :material-arrow-right:](https://github.com/Geoffe-Ga/adepthood/issues/2259)
 
@@ -257,12 +262,45 @@ its branches are dark.
 
 ---
 
+!!! danger "The largest inflow is the one nobody designed"
+
+    Measured on 2026-08-15: **31 of 94 open issues were filed in the last three
+    days**, and `scan:*` labels appear on **zero** issues in the repo's entire
+    history — so the scans really never ran, but that is not why the backlog
+    fills.
+
+    Most issues are filed by **agent sessions** calling `gh issue create`
+    directly: interactive Claude Code sessions, planning skills like
+    `/triage-and-plan` that emit whole epic families, and audit passes. They are
+    invisible in authorship — an agent using the operator's token is
+    indistinguishable from the operator — so they can only be seen by their
+    label families: `de-slop` (7 open), `launch-seeding` (6, filed in a single
+    pass), `audit-northstar` (5), `priority-medium` (9). None of those belong to
+    `/flare`'s vocabulary.
+
+    **This is a genuine hole in the governor model.** `BACKLOG_MAX = 50` is a
+    job-level gate inside `_claude-scan.yml`. It restrains the twelve scans and
+    nothing else. An agent session filing through `gh` never consults it — so
+    the backlog's dominant inflow is completely ungoverned, and the ceiling that
+    looks like it caps the system caps only the branch that is already dead.
+
+    Two lessons, and the second is the one worth taking away. First: a model
+    built from workflow files sees only the inflows someone thought to automate.
+    Second, and more uncomfortable — **this page originally asserted the wrong
+    inflow, and the error survived research, verification and publication**
+    because I checked whether the scans ran (they don't) and then inferred where
+    the issues came from instead of measuring it. Geoff caught it by knowing his
+    own repo: *"It CAN'T be true that everything being worked on here is stuff I
+    brought up via flare."* The measurement above is what that prompted.
+
 ## ① Inflows
 
-Five things create issues. Only three of them currently work.
+Six things create issues. The largest of them appears in no design document.
 
 | Source | Cadence | Status |
 | --- | --- | --- |
+| **Agent sessions** | Continuous | **Working — and ungoverned** |
+| [`deslop.yml`](https://github.com/Geoffe-Ga/adepthood/blob/main/.github/workflows/deslop.yml) | Every 30 merges | Working |
 | [`/flare`](https://github.com/Geoffe-Ga/adepthood/blob/main/.claude/skills/flare/SKILL.md) | Human-invoked | Working |
 | [Dependabot bridge](https://github.com/Geoffe-Ga/adepthood/blob/main/.github/workflows/dependabot-to-ralph-issue.yml) | On Dependabot PR | Working |
 | [`graph-build`](https://github.com/Geoffe-Ga/adepthood/blob/main/.github/workflows/graph-build.yml) staleness | Nightly 04:40 UTC | Working |
