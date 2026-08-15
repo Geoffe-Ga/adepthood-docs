@@ -1056,7 +1056,7 @@
       "label": "What is actually running",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L197",
+      "source_location": "L200",
       "_origin": "ast"
     },
     {
@@ -1064,7 +1064,7 @@
       "label": "① Inflows",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L260",
+      "source_location": "L296",
       "_origin": "ast"
     },
     {
@@ -1072,7 +1072,7 @@
       "label": "② Governors",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L303",
+      "source_location": "L341",
       "_origin": "ast"
     },
     {
@@ -1080,7 +1080,7 @@
       "label": "BACKLOG_MAX = 50",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L310",
+      "source_location": "L348",
       "_origin": "ast"
     },
     {
@@ -1088,7 +1088,7 @@
       "label": "MIN_QUEUE = 12",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L319",
+      "source_location": "L357",
       "_origin": "ast"
     },
     {
@@ -1096,7 +1096,7 @@
       "label": "MAX_QUEUE = 80",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L326",
+      "source_location": "L364",
       "_origin": "ast"
     },
     {
@@ -1104,7 +1104,7 @@
       "label": "6-hour cooldown",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L332",
+      "source_location": "L370",
       "_origin": "ast"
     },
     {
@@ -1112,7 +1112,7 @@
       "label": "③ Balancing loops",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L351",
+      "source_location": "L389",
       "_origin": "ast"
     },
     {
@@ -1120,7 +1120,7 @@
       "label": "④ The inner system",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L375",
+      "source_location": "L413",
       "_origin": "ast"
     },
     {
@@ -1128,7 +1128,7 @@
       "label": "The merge decision",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L421",
+      "source_location": "L459",
       "_origin": "ast"
     },
     {
@@ -1136,7 +1136,7 @@
       "label": "⑤ Metrics",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L447",
+      "source_location": "L485",
       "_origin": "ast"
     },
     {
@@ -1144,7 +1144,7 @@
       "label": "What the model teaches",
       "file_type": "document",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L471",
+      "source_location": "L509",
       "_origin": "ast"
     },
     {
@@ -11019,7 +11019,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L197",
+      "source_location": "L200",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11029,7 +11029,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L260",
+      "source_location": "L296",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11039,7 +11039,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L303",
+      "source_location": "L341",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11049,7 +11049,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L310",
+      "source_location": "L348",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11059,7 +11059,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L319",
+      "source_location": "L357",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11069,7 +11069,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L326",
+      "source_location": "L364",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11079,7 +11079,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L332",
+      "source_location": "L370",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11089,7 +11089,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L351",
+      "source_location": "L389",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11099,7 +11099,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L375",
+      "source_location": "L413",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11109,7 +11109,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L421",
+      "source_location": "L459",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11119,7 +11119,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L447",
+      "source_location": "L485",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -11129,7 +11129,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/architecture/the-loop.md",
-      "source_location": "L471",
+      "source_location": "L509",
       "weight": 1.0,
       "_origin": "ast"
     },
