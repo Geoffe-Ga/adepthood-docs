@@ -45,7 +45,7 @@ own eventual obsolescence — leaving whole is the telos.
 - Consumes `aptitude-course` via the manifest contract
   ([architecture](../architecture/aptitude-course.md)).
 - Shares its ontology with Creek-Vault (Aspects = Frequencies) and a Creek
-  Vault MCP seam is part of the product thesis.
+  Vault HTTP/JSON seam is part of the product thesis.
 - Publishes the knowledge-graph release that federates all five repos.
 
 Platform: iOS/Android/web via Expo. Status: pre-launch; the roadmap's

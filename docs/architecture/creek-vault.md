@@ -73,4 +73,4 @@ Creek-Vault is the power-user, desktop-side expression of the same ontology
 the Adepthood app carries: Creek's Frequencies are Adepthood's Aspects, and
 the vault's `05-Wavelength/` and `06-Frequencies/` folders mirror the app's
 stage and phase model (adepthood `NORTH-STAR.md`, section 11 names the Creek
-Vault MCP seam and the shared ontology explicitly).
+Vault HTTP/JSON seam and the shared ontology explicitly).

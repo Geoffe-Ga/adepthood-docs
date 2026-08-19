@@ -22,17 +22,36 @@ adepthood ships today depends on a vault being present"
   *without* echoing the entry body or an API key into the message.
 ```
 
-The authoritative wire contract lives in
-`docs/creek-vault-mcp-contract.md` in the adepthood repo
-(`creek_vault.py:26-28`); `CONTRACT_VERSION = "0.1.0-draft"`,
-`CONSUMER_ID = "CREEK_MCP_CONSUMER"` (`creek_vault.py:39-46`).
+The authoritative wire contract is **Creek's own published `/v1` bundle**
+(`docs/contracts/adepthood-v1/` in the Creek-Vault repo), which adepthood
+vendors byte-for-byte under `backend/tests/fixtures/creek_v1/`. The
+adepthood-side document `docs/creek-vault-mcp-contract.md` was reduced to
+a pointer to it, plus the material Creek does not own — the tier-name
+mapping and the Wheel projection. Its filename still says `mcp` purely
+for link stability; nothing about the transport is implied by it.
+`CONTRACT_VERSION = "0.2.0"` (`creek_vault.py:49`).
+
+!!! note "Corrected 2026-08-19"
+
+    This page previously reported `CONTRACT_VERSION = "0.1.0-draft"` and
+    `CONSUMER_ID = "CREEK_MCP_CONSUMER"`. Both are gone from the code.
+    The draft version string was retired by adepthood's ADR 0004
+    (Decision 3), which requires it never reappear in the contract doc,
+    and `CONSUMER_ID` was deleted with the MCP client — it never carried
+    any tenancy meaning, and the real per-deployment binding that
+    replaced it is `CREEK_VAULT_OWNER_USER_ID` (ADR 0004 Decision 7).
 
 ## Capabilities and tiers
 
-`CreekCapability` — the wire method names a vault may advertise:
-`creek.handshake`, `creek.journal`, `creek.save`, `creek.classify`,
-`creek.reflect`, `creek.wheel`; "adepthood must never assume a capability
-exists without first seeing it" in the handshake (`creek_vault.py:49-62`).
+`CreekCapability` — adepthood's own names for the capabilities a vault
+may advertise: `creek.handshake`, `creek.journal`, `creek.upload`,
+`creek.save`, `creek.classify`, `creek.reflect`, `creek.wheel`;
+"adepthood must never assume a capability exists without first seeing
+it" in the handshake (`creek_vault.py:52-69`). These are telemetry and
+error keys rather than wire names — over `/v1` the same four live
+capabilities are spelled `capabilities`, `journal-upsert`,
+`reflections` and `wheel`, and `services/creek_vault_client.py`
+translates between the two.
 
 `VaultTierCeiling` — `open` / `personal` / `intimate`; `OPEN` is Creek's
 word for what adepthood calls `PUBLIC` (`creek_vault.py:65-76`). The
