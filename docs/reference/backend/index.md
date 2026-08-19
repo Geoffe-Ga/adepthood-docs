@@ -29,7 +29,7 @@ flowchart TD
     DOM --> M[models/\n37 SQLModel tables]
     SVC --> M
     M --> PG[(PostgreSQL\n70 alembic migrations)]
-    SVC -.->|optional| CV[Creek Vault MCP]
+    SVC -.->|optional| CV[Creek Vault\n/v1 HTTP/JSON]
     SVC -.->|metered| LLM[LLM provider]
 ```
 

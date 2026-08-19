@@ -38,5 +38,5 @@ repo's own `creek-tools/docs/` guides cover each stage end to end.
 The vault's `05-Wavelength/` and `06-Frequencies/` layers implement the
 same model as Adepthood's Aspects and the course's stages
 (`docs/Ontology/` is the canonical specification). Adepthood's north star
-names the Creek Vault MCP seam as part of the app's future: the vault as
+names the Creek Vault seam as part of the app's future: the vault as
 the deep, local corpus a Higher Self can draw on.
