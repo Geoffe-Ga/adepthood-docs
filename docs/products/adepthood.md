@@ -3,32 +3,35 @@
 As of the 2026-07-31 baseline seed (issue #3).
 
 Adepthood is, at its floor, a private journal-first personal knowledge base
-whose growing corpus becomes a "Higher Self" that reflects the user's own
-wisdom back in the language of the APTITUDE program and the Archetypal
-Wavelength. Around that floor sit optional, self-chosen depths — prompted
-journaling, habit scaffolding, a practice ramp, the course reading, and the
-Digital Sangha. Nothing is gated, nothing is mandatory: **you choose your
-depth** (adepthood `NORTH-STAR.md`).
+whose growing body of writing becomes a "Higher Self" that reflects the
+user's own wisdom back in the language of the APTITUDE program and the
+Archetypal Wavelength. Around that floor sit optional, self-chosen depths —
+prompted journaling, habit scaffolding, a practice ramp, the course reading,
+and the Digital Sangha. Nothing is gated, nothing is mandatory: **you choose
+your depth** (adepthood `NORTH-STAR.md`).
 
 ## Feature surface
 
 - **Journal + Higher Self (the floor, always on).** Free writing folded
-  into a private, encrypted, ontology-classified corpus that speaks back —
-  with resonance detection, marginalia, and promoted quotes.
+  into a private, encrypted store of the writer's own words, tagged by
+  stage and Wavelength phase, that speaks back — noticing when a new entry
+  echoes an older one, adding marginalia, and lifting out quotes worth
+  keeping.
 - **Prompted journaling.** Stage-aligned prompts that carry a writer
   through the ten Aspects of Wholeness implicitly.
 - **Habits.** Opt-in one-habit-per-stage scaffolding with energy planning,
   streaks, and tiered goals — and no streak-shame by design.
-- **Practice.** An opt-in ramp of timed practices (11 engine modes,
+- **Practice.** An opt-in ramp of timed practices (eleven kinds,
   including breathwork, grounding variants, and card meditation) with a
   launchable timer, sound cues, a browsable catalog, custom practices, and
   share links.
-- **Course.** The APTITUDE reading, drip-fed at the stage cadence from the
-  pinned `aptitude-course` content.
+- **Course.** The APTITUDE reading, arriving on each stage's schedule from
+  a fixed edition of the course text.
 - **Map.** A wheel of wholeness showing balance across the ten facets —
   never altitude climbed.
-- **Invitations.** Resonance-gated, one-tap-declinable nudges toward deeper
-  rings — the "wise friend" test governs every one.
+- **Invitations.** Openings toward deeper rings, offered only when your own
+  writing calls for one and declinable in a single tap — the "wise friend"
+  test governs every one.
 
 ## Who it serves
 

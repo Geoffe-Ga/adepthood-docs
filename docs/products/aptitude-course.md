@@ -18,7 +18,7 @@ versioned like software.
   expressions, journaling prompts, a key practice with alternatives, a
   default habit, gift and shadow, divine gender, and a full six-phase
   Wavelength breakdown with medicinal and overdose expressions per phase.
-- **A rhythm to live by.** Sections carry `release_day` pacing so the
+- **A rhythm to live by.** Each section has its own release day, so the
   reading drips over the 36-week arc rather than arriving as a wall of
   text.
 
