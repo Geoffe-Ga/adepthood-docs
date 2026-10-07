@@ -10,16 +10,16 @@ self-care strategies in the moment you need them.
 ## What it does for its user
 
 - **Browse the whole curriculum from the watch** — layers and phases,
-  ordered consistently, with the full catalog cached on-device (24-hour
-  TTL) so it works offline.
-- **See both edges of every phase.** Each phase surfaces its healthy (Rx)
+  ordered consistently, with the whole catalog kept on the watch so it
+  works offline (it checks for new content once a day).
+- **See both edges of every phase.** Each phase shows you its healthy (Rx)
   and unhealthy (toxic/OD) expressions together, making the model a
   real-time self-check rather than reading material.
 - **Log from the wrist.** A journal loop records which curriculum entry and
-  strategy matched your moment — stored locally first, synced to the
-  backend only if cloud sync is enabled (privacy-first).
-- **Stay current.** Background refresh keeps content fresh without
-  foreground use.
+  strategy matched your moment — kept on the watch unless you choose to
+  turn cloud sync on; nothing leaves the device by default.
+- **Stay current.** New content arrives on its own; you don't have to open
+  the app to get it.
 
 ## How to use it
 

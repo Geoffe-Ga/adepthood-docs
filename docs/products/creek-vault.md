@@ -5,21 +5,24 @@ As of the 2026-07-31 baseline seed (issue #3).
 Creek-Vault turns a lifetime of scattered digital exhaust — chat exports,
 documents, notes, screenshots, messages — into an interlinked Obsidian
 knowledge base that knows your patterns. It is the desktop, power-user
-expression of the ecosystem's ontology: every fragment classified by topic,
-voice, Frequency, archetypal phase, and privacy tier.
+expression of the same ten-fold map the app uses: everything you bring in
+gets tagged by topic, voice, Frequency, Wavelength phase, and how private
+it is.
 
 ## What it does for its user
 
-- **Ingests almost anything.** Eleven source ingestors (Claude/ChatGPT
+- **Takes in almost anything.** Eleven importers (Claude/ChatGPT
   exports, Discord, markdown, PDF/DOCX, spreadsheets, presentations, code,
   images via OCR, Substack, generic text) plus a read-only Google Drive
   downloader.
-- **Protects before it processes.** Redaction scans for secrets and PII
-  first; ingestion is consent-gated per source; classification runs locally
-  (Ollama) by default; `creek purge` delivers right-to-be-forgotten with
-  audit logs.
-- **Finds the connections.** Embedding similarity, temporal proximity, and
-  "eddy" cluster detection interlink fragments across sources.
+- **Protects before it processes.** It scrubs secrets and personal details
+  before anything else happens; it asks your permission source by source
+  before taking anything in; sorting happens on your own machine (Ollama)
+  unless you choose otherwise; and `creek purge` lets you be forgotten,
+  keeping a record of what was removed.
+- **Finds the connections.** It links pieces that say similar things, that
+  happened around the same time, and that pool into the same "eddy" of a
+  topic — across every source.
 - **Writes back.** Index notes, weekly/monthly wavelength reports, a
   per-frequency Voice Skill Tree, blog-idea mining, and essay drafting in
   the user's own voice (`creek skills` / `creek mine` / `creek draft`).
