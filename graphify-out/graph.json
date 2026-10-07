@@ -3328,7 +3328,7 @@
       "label": "Who it serves",
       "file_type": "document",
       "source_file": "docs/products/adepthood.md",
-      "source_location": "L33",
+      "source_location": "L36",
       "_origin": "ast"
     },
     {
@@ -3336,7 +3336,7 @@
       "label": "Cross-repo relationships",
       "file_type": "document",
       "source_file": "docs/products/adepthood.md",
-      "source_location": "L43",
+      "source_location": "L46",
       "_origin": "ast"
     },
     {
@@ -3408,7 +3408,7 @@
       "label": "What it does for its user",
       "file_type": "document",
       "source_file": "docs/products/creek-vault.md",
-      "source_location": "L11",
+      "source_location": "L12",
       "_origin": "ast"
     },
     {
@@ -3416,7 +3416,7 @@
       "label": "How to use it",
       "file_type": "document",
       "source_file": "docs/products/creek-vault.md",
-      "source_location": "L29",
+      "source_location": "L32",
       "_origin": "ast"
     },
     {
@@ -3424,7 +3424,7 @@
       "label": "Cross-repo relationships",
       "file_type": "document",
       "source_file": "docs/products/creek-vault.md",
-      "source_location": "L36",
+      "source_location": "L39",
       "_origin": "ast"
     },
     {
@@ -6168,7 +6168,7 @@
       "label": "Functions",
       "file_type": "document",
       "source_file": "docs/reference/backend/domain/weekly-prompts.md",
-      "source_location": "L23",
+      "source_location": "L32",
       "_origin": "ast"
     },
     {
@@ -6176,7 +6176,7 @@
       "label": "Consumers",
       "file_type": "document",
       "source_file": "docs/reference/backend/domain/weekly-prompts.md",
-      "source_location": "L44",
+      "source_location": "L59",
       "_origin": "ast"
     },
     {
@@ -13989,7 +13989,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/products/adepthood.md",
-      "source_location": "L33",
+      "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -13999,7 +13999,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/products/adepthood.md",
-      "source_location": "L43",
+      "source_location": "L46",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -14009,7 +14009,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/products/adepthood.md",
-      "source_location": "L46",
+      "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -14099,7 +14099,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/products/creek-vault.md",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -14109,7 +14109,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/products/creek-vault.md",
-      "source_location": "L29",
+      "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -14119,7 +14119,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/products/creek-vault.md",
-      "source_location": "L33",
+      "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -14129,7 +14129,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/products/creek-vault.md",
-      "source_location": "L36",
+      "source_location": "L39",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -19359,7 +19359,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/reference/backend/domain/weekly-prompts.md",
-      "source_location": "L23",
+      "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -19369,7 +19369,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/reference/backend/domain/weekly-prompts.md",
-      "source_location": "L44",
+      "source_location": "L59",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -19379,7 +19379,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/reference/backend/domain/weekly-prompts.md",
-      "source_location": "L46",
+      "source_location": "L61",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -19389,7 +19389,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/reference/backend/domain/weekly-prompts.md",
-      "source_location": "L49",
+      "source_location": "L64",
       "weight": 1.0,
       "_origin": "ast"
     },
